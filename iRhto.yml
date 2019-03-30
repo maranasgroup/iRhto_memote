@@ -7796,18 +7796,6 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00447
   - !!omap
-    - id: bt2coa_c
-    - name: trans-but-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C25H36N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:CROTONYL-COA
-      - pubchem.compound: '5497143'
-      - sbo: SBO:0000247
-  - !!omap
     - id: bt2coa_m
     - name: trans-but-2-enoyl-CoA
     - compartment: m
@@ -9520,9 +9508,33 @@
       - pubchem.compound: '168381'
       - sbo: SBO:0000247
   - !!omap
+    - id: crn120_x
+    - name: dodecanoyl-carnitine
+    - compartment: x
+    - charge: 0
+    - formula: C19H37NO4
+    - notes: !!omap
+      - formula_charge_source: manual
+    - annotation: !!omap
+      - chebi: CHEBI:77086
+      - pubchem.compound: '168381'
+      - sbo: SBO:0000247
+  - !!omap
     - id: crn140_m
     - name: myristoyl-carnitine
     - compartment: m
+    - charge: 0
+    - formula: C21H41NO4
+    - notes: !!omap
+      - formula_charge_source: manual
+    - annotation: !!omap
+      - chebi: CHEBI:73061
+      - pubchem.compound: '6426854'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: crn140_x
+    - name: myristoyl-carnitine
+    - compartment: x
     - charge: 0
     - formula: C21H41NO4
     - notes: !!omap
@@ -9546,9 +9558,35 @@
       - sbo: SBO:0000247
       - seed.compound: cpd01915
   - !!omap
-    - id: crn161_c
+    - id: crn160_x
+    - name: L-Palmitoylcarnitine
+    - compartment: x
+    - charge: 0
+    - formula: C23H45N1O4
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:CPD-419
+      - kegg.compound: C02990
+      - pubchem.compound: '11953816'
+      - sbo: SBO:0000247
+      - seed.compound: cpd01915
+  - !!omap
+    - id: crn161_m
     - name: hexadecenoyl-carnitine
-    - compartment: c
+    - compartment: m
+    - charge: 0
+    - formula: C23H43NO4
+    - notes: !!omap
+      - formula_charge_source: manual
+    - annotation: !!omap
+      - chebi: CHEBI:88544
+      - pubchem.compound: '53481653'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: crn161_x
+    - name: hexadecenoyl-carnitine
+    - compartment: x
     - charge: 0
     - formula: C23H43NO4
     - notes: !!omap
@@ -9568,6 +9606,43 @@
     - annotation: !!omap
       - chebi: CHEBI:84644
       - pubchem.compound: '52922056'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: crn180_x
+    - name: stearoyl-carnitine
+    - compartment: x
+    - charge: 0
+    - formula: C25H49NO4
+    - notes: !!omap
+      - formula_charge_source: manual
+    - annotation: !!omap
+      - chebi: CHEBI:84644
+      - pubchem.compound: '52922056'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: crn181_m
+    - name: Oleoyl-L-carnitine
+    - compartment: m
+    - charge: 0
+    - formula: C25H47NO4
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:CPD-20402
+      - chebi.compound: CHEBI:84651
+      - pubchem.compound: '46907933'
+      - sbo: SBO:0000247
+  - !!omap
+    - id: crn181_x
+    - name: Oleoyl-L-carnitine
+    - compartment: x
+    - charge: 0
+    - formula: C25H47NO4
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - chebi.compound: CHEBI:84651
+      - pubchem.compound: '46907933'
       - sbo: SBO:0000247
   - !!omap
     - id: crn_c
@@ -10271,22 +10346,6 @@
       - seed.compound: cpd11225
       - ymdb: YMDB00456
   - !!omap
-    - id: dc2coa_c
-    - name: trans-dec-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C31H48N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:T2-DECENOYL-COA
-      - chebi: CHEBI:61406
-      - kegg.compound: C05275
-      - pubchem.compound: '24883423'
-      - sbo: SBO:0000247
-      - seed.compound: cpd03129
-      - ymdb: YMDB00463
-  - !!omap
     - id: dc2coa_m
     - name: trans-dec-2-enoyl-CoA
     - compartment: m
@@ -10579,22 +10638,6 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: dd2coa_c
-    - name: trans-dodec-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C33H52N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:CPD-7222
-      - chebi: CHEBI:57330
-      - kegg.compound: C03221
-      - pubchem.compound: '11966110'
-      - sbo: SBO:0000247
-      - seed.compound: cpd02060
-      - ymdb: YMDB00466
-  - !!omap
     - id: dd2coa_m
     - name: trans-dodec-2-enoyl-CoA
     - compartment: m
@@ -10627,11 +10670,27 @@
       - seed.compound: cpd02060
       - ymdb: YMDB00466
   - !!omap
+    - id: dd35coa_m
+    - name: trans-3,cis-5-dodecadienoyl-CoA
+    - compartment: m
+    - charge: -4
+    - formula: C33H50N7O17P3S
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
     - id: dd35coa_x
     - name: trans-3,cis-5-dodecadienoyl-CoA
     - compartment: x
     - charge: -4
     - formula: C33H50N7O17P3S
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: dd3coa__E_m
+    - name: trans-dodec-3-enoyl-CoA
+    - compartment: m
+    - charge: -4
+    - formula: C33H52N7O17P3S
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
@@ -12777,6 +12836,22 @@
       - seed.compound: cpd00015
       - ymdb: YMDB00296
   - !!omap
+    - id: fad_x
+    - name: FAD
+    - compartment: x
+    - charge: -3
+    - formula: C27H30N9O15P2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:FAD
+      - chebi: CHEBI:57692
+      - kegg.compound: C00016
+      - pubchem.compound: '643975'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00015
+      - ymdb: YMDB00296
+  - !!omap
     - id: fadh2_c
     - name: FADH2
     - compartment: c
@@ -12796,6 +12871,22 @@
     - id: fadh2_m
     - name: FADH2
     - compartment: m
+    - charge: -2
+    - formula: C27H33N9O15P2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:FADH2
+      - chebi: CHEBI:58307
+      - kegg.compound: C01352
+      - pubchem.compound: '446013'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00982
+      - ymdb: YMDB00597
+  - !!omap
+    - id: fadh2_x
+    - name: FADH2
+    - compartment: x
     - charge: -2
     - formula: C27H33N9O15P2
     - notes: !!omap
@@ -14821,6 +14912,22 @@
       - seed.compound: cpd00100
       - ymdb: YMDB00283
   - !!omap
+    - id: glyc_m
+    - name: glycerol
+    - compartment: m
+    - charge: 0
+    - formula: C3H8O3
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:GLYCEROL
+      - chebi: CHEBI:17754
+      - kegg.compound: C00116
+      - pubchem.compound: '753'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00100
+      - ymdb: YMDB00283
+  - !!omap
     - id: glyclt_c
     - name: Glycolate
     - compartment: c
@@ -16563,19 +16670,6 @@
       - sbo: SBO:0000247
       - seed.compound: cpd01822
   - !!omap
-    - id: hx2coa_c
-    - name: trans-hex-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C27H40N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:CPD0-2121
-      - pubchem.compound: '11966204'
-      - sbo: SBO:0000247
-      - seed.compound: cpd03125
-  - !!omap
     - id: hx2coa_m
     - name: trans-hex-2-enoyl-CoA
     - compartment: m
@@ -16712,6 +16806,34 @@
     - formula: C37H58N7O18P3S
     - annotation: !!omap
       - sbo: SBO:0000247
+  - !!omap
+    - id: hxca_c
+    - name: cerotic acid
+    - compartment: c
+    - charge: -1
+    - formula: C26H51O2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:CPD-7832
+      - chebi: CHEBI:31013
+      - pubchem.compound: '5461023'
+      - sbo: SBO:0000247
+      - ymdb: YMDB00785
+  - !!omap
+    - id: hxca_e
+    - name: cerotic acid
+    - compartment: e
+    - charge: -1
+    - formula: C26H51O2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:CPD-7832
+      - chebi: CHEBI:31013
+      - pubchem.compound: '5461023'
+      - sbo: SBO:0000247
+      - ymdb: YMDB00785
   - !!omap
     - id: hxca_en
     - name: cerotic acid
@@ -16920,9 +17042,9 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: hxd2coa_c
+    - id: hxd2coa_x
     - name: trans-hexadec-2-enoyl-CoA
-    - compartment: c
+    - compartment: x
     - charge: -4
     - formula: C37H60N7O17P3S1
     - notes: !!omap
@@ -20808,19 +20930,6 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00032
       - ymdb: YMDB00235
-  - !!omap
-    - id: oc2coa_c
-    - name: trans-oct-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C29H44N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:CPD0-2108
-      - pubchem.compound: '11966175'
-      - sbo: SBO:0000247
-      - seed.compound: cpd03130
   - !!omap
     - id: oc2coa_m
     - name: trans-oct-2-enoyl-CoA
@@ -25629,22 +25738,6 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: td2coa_c
-    - name: trans-tetradec-2-enoyl-CoA
-    - compartment: c
-    - charge: -4
-    - formula: C35H56N7O17P3S1
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:CPD-15568
-      - chebi: CHEBI:61405
-      - kegg.compound: C05273
-      - pubchem.compound: '11966172'
-      - sbo: SBO:0000247
-      - seed.compound: cpd03127
-      - ymdb: YMDB00472
-  - !!omap
     - id: td2coa_m
     - name: trans-tetradec-2-enoyl-CoA
     - compartment: m
@@ -25677,11 +25770,27 @@
       - seed.compound: cpd03127
       - ymdb: YMDB00472
   - !!omap
+    - id: td35coa_m
+    - name: trans-3,cis-5-tetradecadienoyl-CoA
+    - compartment: m
+    - charge: -4
+    - formula: C35H54N7O17P3S
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
     - id: td35coa_x
     - name: trans-3,cis-5-tetradecadienoyl-CoA
     - compartment: x
     - charge: -4
     - formula: C35H54N7O17P3S
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: td3coa_m
+    - name: trans-tetradec-3-enoyl-CoA
+    - compartment: m
+    - charge: -4
+    - formula: C35H56N7O17P3S
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
@@ -31257,70 +31366,56 @@
       - kegg.reaction: R00006
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD100f_c
+    - id: ACOAD100f_x
     - name: acyl-CoA dehydrogenase (n-C10:0)
     - metabolites: !!omap
-      - dc2coa_c: 1.0
-      - dcacoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
+      - dc2coa_x: 1.0
+      - dcacoa_x: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD120f_c
+    - id: ACOAD120f_x
     - name: acyl-CoA dehydrogenase (n-C12:0)
     - metabolites: !!omap
-      - dd2coa_c: 1.0
-      - ddcacoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
+      - dd2coa_x: 1.0
+      - ddcacoa_x: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD140f_c
+    - id: ACOAD140f_x
     - name: acyl-CoA dehydrogenase (n-C14:0)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
-      - td2coa_c: 1.0
-      - tdcoa_c: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
+      - td2coa_x: 1.0
+      - tdcoa_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD160f_c
+    - id: ACOAD160f_x
     - name: acyl-CoA dehydrogenase (n-C16:0)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
-      - hxd2coa_c: 1.0
-      - pmtcoa_c: -1.0
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: rt2040 or rt0595
-    - annotation: !!omap
-      - sbo: SBO:0000176
-  - !!omap
-    - id: ACOAD40f_c
-    - name: acyl-CoA dehydrogenase (n-C4:0)
-    - metabolites: !!omap
-      - bt2coa_c: 1.0
-      - btcoa_c: -1.0
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
+      - hxd2coa_x: 1.0
+      - pmtcoa_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
@@ -31345,14 +31440,14 @@
       - kegg.reaction: R01175
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD60f_c
-    - name: acyl-CoA dehydrogenase (n-C6:0)
+    - id: ACOAD40f_x
+    - name: acyl-CoA dehydrogenase (n-C4:0)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
-      - hx2coa_c: 1.0
-      - hxcoa_c: -1.0
+      - bt2coa_x: 1.0
+      - btcoa_x: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
@@ -31377,14 +31472,14 @@
       - kegg.reaction: R04751
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAD80f_c
-    - name: acyl-CoA dehydrogenase (n-C8:0)
+    - id: ACOAD60f_x
+    - name: acyl-CoA dehydrogenase (n-C6:0)
     - metabolites: !!omap
-      - fad_c: -1.0
-      - fadh2_c: 1.0
-      - h_c: -1.0
-      - oc2coa_c: 1.0
-      - occoa_c: -1.0
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
+      - hx2coa_x: 1.0
+      - hxcoa_x: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt2040 or rt0595
@@ -31407,6 +31502,20 @@
     - annotation: !!omap
       - ec-code: 1.3.8.7
       - kegg.reaction: R03777
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAD80f_x
+    - name: acyl-CoA dehydrogenase (n-C8:0)
+    - metabolites: !!omap
+      - fad_x: -1.0
+      - fadh2_x: 1.0
+      - h_x: -1.0
+      - oc2coa_x: 1.0
+      - occoa_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt2040 or rt0595
+    - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
     - id: ACOADS160_rm
@@ -31557,6 +31666,20 @@
       - kegg.reaction: R00227
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO100_m
+    - name: acyl-CoA oxidase (decanoyl-CoA)
+    - metabolites: !!omap
+      - dc2coa_m: 1.0
+      - dcacoa_m: -1.0
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO100_x
     - name: acyl-CoA oxidase (decanoyl-CoA)
     - metabolites: !!omap
@@ -31570,6 +31693,20 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_0120
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO120_m
+    - name: acyl-CoA oxidase (dodecanoyl-CoA)
+    - metabolites: !!omap
+      - dd2coa_m: 1.0
+      - ddcacoa_m: -1.0
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -31591,6 +31728,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO120a_m
+    - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
+    - metabolites: !!omap
+      - dd25coa_m: 1.0
+      - dd5coa_m: -1.0
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO120a_x
     - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
@@ -31604,6 +31755,20 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_2244
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO140_m
+    - name: acyl-CoA oxidase (tetradecanoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+      - td2coa_m: 1.0
+      - tdcoa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -31625,6 +31790,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO141a_m
+    - name: acyl-CoA oxidase (cis-tetradec-5-enoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+      - td25coa_m: 1.0
+      - td5coa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO141a_x
     - name: acyl-CoA oxidase (cis-tetradec-5-enoyl-CoA)
     - metabolites: !!omap
@@ -31638,6 +31817,20 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_2247
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO141b_m
+    - name: acyl-CoA oxidase (cis-tetradec-7-enoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+      - td27coa_m: 1.0
+      - td7coa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -31659,6 +31852,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO160_m
+    - name: acyl-CoA oxidase (hexadecanoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - hdd2coa_m: 1.0
+      - o2_m: -1.0
+      - pmtcoa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO160_x
     - name: acyl-CoA oxidase (hexadecanoyl-CoA)
     - metabolites: !!omap
@@ -31672,6 +31879,21 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_0123
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO161a_m
+    - name: acyl-CoA oxidase (cis-hexadec-7-enoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - h_m: 1.0
+      - hxd27coa_m: 1.0
+      - hxd7coa_m: -1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -31694,6 +31916,21 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO161b_m
+    - name: acyl-CoA oxidase (palmitoleoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - h_m: 2.0
+      - hdcoa_m: -1.0
+      - hxd29coa_m: 1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO161b_x
     - name: acyl-CoA oxidase (palmitoleoyl-CoA)
     - metabolites: !!omap
@@ -31712,6 +31949,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO180_m
+    - name: acyl-CoA oxidase (octadecanoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+      - od2coa_m: 1.0
+      - stcoa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO180_x
     - name: acyl-CoA oxidase (octadecanoyl-CoA)
     - metabolites: !!omap
@@ -31725,6 +31976,21 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_0124
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO181a_m
+    - name: acyl-CoA oxidase (oleoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - h_m: 2.0
+      - o2_m: -1.0
+      - od29coa_m: 1.0
+      - odecoa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -31817,6 +32083,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO40_m
+    - name: acyl-CoA oxidase (butanoyl-CoA)
+    - metabolites: !!omap
+      - bt2coa_m: 1.0
+      - btcoa_m: -1.0
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO40_x
     - name: acyl-CoA oxidase (butanoyl-CoA)
     - metabolites: !!omap
@@ -31834,6 +32114,20 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
+    - id: ACOAO60_m
+    - name: acyl-CoA oxidase (hexanoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - hx2coa_m: 1.0
+      - hxcoa_m: -1.0
+      - o2_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
     - id: ACOAO60_x
     - name: acyl-CoA oxidase (hexanoyl-CoA)
     - metabolites: !!omap
@@ -31847,6 +32141,20 @@
     - notes: !!omap
       - manually_curated: yes
       - yeastkegg_id: r_2237
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ACOAO80_m
+    - name: acyl-CoA oxidase (octanoyl-CoA)
+    - metabolites: !!omap
+      - h2o2_m: 1.0
+      - o2_m: -1.0
+      - oc2coa_m: 1.0
+      - occoa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
@@ -34047,6 +34355,17 @@
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt1544 and rt2799
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: ARACHt_c_rm
+    - name: arachidate transport
+    - metabolites: !!omap
+      - arach_c: -1.0
+      - arach_rm: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
@@ -36784,6 +37103,72 @@
       - kegg.reaction: R03220
       - sbo: SBO:0000176
   - !!omap
+    - id: CRN120t_m_x
+    - name: carnitine C12:0 transport
+    - metabolites: !!omap
+      - crn120_m: 1.0
+      - crn120_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: CRN140t_m_x
+    - name: carnitine C14:0 transport
+    - metabolites: !!omap
+      - crn140_m: 1.0
+      - crn140_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: CRN160t_m_x
+    - name: carnitine C16:0 transport
+    - metabolites: !!omap
+      - crn160_m: 1.0
+      - crn160_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: CRN161t_m_x
+    - name: carnitine C16:1 transport
+    - metabolites: !!omap
+      - crn161_m: 1.0
+      - crn161_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: CRN180t_m_x
+    - name: carnitine C18:0 transport
+    - metabolites: !!omap
+      - crn180_m: 1.0
+      - crn180_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: CRN181t_m_x
+    - name: carnitine C18:1 transport
+    - metabolites: !!omap
+      - crn181_m: 1.0
+      - crn181_x: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
     - id: CRNACRNt_c_m
     - name: carnithine-acetylcarnithine carrier
     - metabolites: !!omap
@@ -36802,10 +37187,10 @@
     - id: CRNAT120_m
     - name: carnitine acyltransferase (C12:0)
     - metabolites: !!omap
-      - coa_m: 1.0
-      - crn120_m: 1.0
-      - crn_m: -1.0
-      - ddcacoa_m: -1.0
+      - coa_m: -1.0
+      - crn120_m: -1.0
+      - crn_m: 1.0
+      - ddcacoa_m: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt7415
@@ -36814,13 +37199,26 @@
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
+    - id: CRNAT120_x
+    - name: carnitine acyltransferase (C12:0)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn120_x: -1.0
+      - crn_x: 1.0
+      - ddcacoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
     - id: CRNAT140_m
     - name: carnitine acyltransferase (C14:0)
     - metabolites: !!omap
-      - coa_m: 1.0
-      - crn140_m: 1.0
-      - crn_m: -1.0
-      - tdcoa_m: -1.0
+      - coa_m: -1.0
+      - crn140_m: -1.0
+      - crn_m: 1.0
+      - tdcoa_m: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt7415
@@ -36829,13 +37227,26 @@
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
+    - id: CRNAT140_x
+    - name: carnitine acyltransferase (C14:0)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn140_x: -1.0
+      - crn_x: 1.0
+      - tdcoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
     - id: CRNAT160_m
     - name: carnitine acyltransferase (C16:0)
     - metabolites: !!omap
-      - coa_m: 1.0
-      - crn160_m: 1.0
-      - crn_m: -1.0
-      - pmtcoa_m: -1.0
+      - coa_m: -1.0
+      - crn160_m: -1.0
+      - crn_m: 1.0
+      - pmtcoa_m: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt7415
@@ -36847,33 +37258,98 @@
       - sbo: SBO:0000176
       - seed.reaction: rxn01409
   - !!omap
-    - id: CRNAT161_c_m
+    - id: CRNAT160_x
+    - name: carnitine acyltransferase (C16:0)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn160_x: -1.0
+      - crn_x: 1.0
+      - pmtcoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - kegg.reaction: R01923
+      - sbo: SBO:0000176
+      - seed.reaction: rxn01409
+  - !!omap
+    - id: CRNAT161_m
     - name: carnitine acyltransferase (C16:1)
     - metabolites: !!omap
-      - coa_m: 1.0
-      - crn161_c: 1.0
-      - crn_m: -1.0
-      - hdcoa_m: -1.0
-    - lower_bound: -1000.0
+      - coa_m: -1.0
+      - crn161_m: -1.0
+      - crn_m: 1.0
+      - hdcoa_m: 1.0
+    - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt7415
-    - notes: !!omap
-      - kbrxn_idx: '149'
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CRNAT161_x
+    - name: carnitine acyltransferase (C16:1)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn161_x: -1.0
+      - crn_x: 1.0
+      - hdcoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
     - id: CRNAT180_m
     - name: carnitine acyltransferase (C18:0)
     - metabolites: !!omap
-      - coa_m: 1.0
-      - crn180_m: 1.0
-      - crn_m: -1.0
-      - stcoa_m: -1.0
+      - coa_m: -1.0
+      - crn180_m: -1.0
+      - crn_m: 1.0
+      - stcoa_m: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: rt7415
     - notes: !!omap
       - kbrxn_idx: '193'
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CRNAT180_x
+    - name: carnitine acyltransferase (C18:0)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn180_x: -1.0
+      - crn_x: 1.0
+      - stcoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CRNAT181_m
+    - name: carnitine acyltransferase (C16:1)
+    - metabolites: !!omap
+      - coa_m: -1.0
+      - crn181_m: -1.0
+      - crn_m: 1.0
+      - odecoa_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt7415
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
+    - id: CRNAT181_x
+    - name: carnitine acyltransferase (C16:1)
+    - metabolites: !!omap
+      - coa_x: -1.0
+      - crn181_x: -1.0
+      - crn_x: 1.0
+      - odecoa_x: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt7415
     - annotation: !!omap
       - sbo: SBO:0000176
   - !!omap
@@ -38621,6 +39097,17 @@
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
+    - id: DOCOSAt_c_rm
+    - name: docosanoate transport
+    - metabolites: !!omap
+      - docosa_c: -1.0
+      - docosa_rm: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
     - id: DOCOSCOAt_c_en
     - name: docosanoyl-CoA transport
     - metabolites: !!omap
@@ -39771,6 +40258,19 @@
       - kegg.reaction: R09698
       - sbo: SBO:0000176
   - !!omap
+    - id: ECOAI100a_m
+    - name: delta3,delta2-enoyl-CoA isomerase (cis-dec-3-enoyl-CoA)
+    - metabolites: !!omap
+      - dc2coa_m: 1.0
+      - dc3coa_m: -1.0
+      - h_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
     - id: ECOAI100a_x
     - name: delta3,delta2-enoyl-CoA isomerase (cis-dec-3-enoyl-CoA)
     - metabolites: !!omap
@@ -39782,6 +40282,19 @@
     - gene_reaction_rule: rt1925 or rt3539
     - notes: !!omap
       - yeastkegg_id: r_2295
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ECOAI120a_m
+    - name: delta3,delta2-enoyl-CoA isomerase (cis-dodec-3-enoyl-CoA)
+    - metabolites: !!omap
+      - dd2coa_m: 1.0
+      - dd3coa__Z_m: -1.0
+      - h_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
     - annotation: !!omap
       - ec-code: 5.3.3.8
       - sbo: SBO:0000176
@@ -39801,6 +40314,18 @@
       - ec-code: 5.3.3.8
       - sbo: SBO:0000176
   - !!omap
+    - id: ECOAI120b_m
+    - name: delta3,delta2-enoyl-CoA isomerase (trans-dodec-3-enoyl-CoA)
+    - metabolites: !!omap
+      - dd2coa_m: 1.0
+      - dd3coa__E_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
     - id: ECOAI120b_x
     - name: delta3,delta2-enoyl-CoA isomerase (trans-dodec-3-enoyl-CoA)
     - metabolites: !!omap
@@ -39811,6 +40336,18 @@
     - gene_reaction_rule: rt1925 or rt3539
     - notes: !!omap
       - yeastkegg_id: r_2297
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ECOAI120c_m
+    - name: delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-dodecadienoyl-CoA)
+    - metabolites: !!omap
+      - dd25coa_m: -1.0
+      - dd35coa_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
     - annotation: !!omap
       - ec-code: 5.3.3.8
       - sbo: SBO:0000176
@@ -39829,6 +40366,18 @@
       - ec-code: 5.3.3.8
       - sbo: SBO:0000176
   - !!omap
+    - id: ECOAI140a_m
+    - name: delta3,delta2-enoyl-CoA isomerase (trans-tetradec-3-enoyl-CoA)
+    - metabolites: !!omap
+      - td2coa_m: 1.0
+      - td3coa_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
     - id: ECOAI140a_x
     - name: delta3,delta2-enoyl-CoA isomerase (trans-tetradec-3-enoyl-CoA)
     - metabolites: !!omap
@@ -39839,6 +40388,18 @@
     - gene_reaction_rule: rt1925 or rt3539
     - notes: !!omap
       - yeastkegg_id: r_2300
+    - annotation: !!omap
+      - ec-code: 5.3.3.8
+      - sbo: SBO:0000176
+  - !!omap
+    - id: ECOAI140c_m
+    - name: delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-tetradecadienoyl-CoA)
+    - metabolites: !!omap
+      - td25coa_m: -1.0
+      - td35coa_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1925 or rt3539
     - annotation: !!omap
       - ec-code: 5.3.3.8
       - sbo: SBO:0000176
@@ -41477,6 +42038,16 @@
     - gene_reaction_rule: ''
     - notes: !!omap
       - yeastkegg_id: r_1841
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: EX_hxca_e
+    - name: cerotic acid exchange
+    - metabolites: !!omap
+      - hxca_e: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
     - annotation: !!omap
       - sbo: SBO:0000627
   - !!omap
@@ -46327,6 +46898,17 @@
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
+    - id: GLYCt_c_m
+    - name: glycerol transport
+    - metabolites: !!omap
+      - glyc_c: 1.0
+      - glyc_m: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000176
+  - !!omap
     - id: GLYCtps_e
     - name: glycerol transport
     - metabolites: !!omap
@@ -48802,6 +49384,28 @@
     - annotation: !!omap
       - sbo: SBO:0000185
   - !!omap
+    - id: HXCAt_c_e
+    - name: cerotic acid transport
+    - metabolites: !!omap
+      - hxca_c: -1.0
+      - hxca_e: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: HXCAt_c_rm
+    - name: tetracosanoate transport
+    - metabolites: !!omap
+      - hxca_c: -1.0
+      - hxca_rm: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
     - id: HXCAt_en_rm
     - name: cerotic acid transport
     - metabolites: !!omap
@@ -50800,6 +51404,22 @@
     - gene_reaction_rule: rt1360
     - notes: !!omap
       - manually_curated: yes
+    - annotation: !!omap
+      - ec-code: 3.1.1.23
+      - kegg.reaction: R01351
+      - sbo: SBO:0000176
+  - !!omap
+    - id: MAGL_m
+    - name: MAG lipase
+    - metabolites: !!omap
+      - 1mag_m: -1.0
+      - falpd_m: 1.0
+      - glyc_m: 1.0
+      - h2o_m: -1.0
+      - h_m: 1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: UNKNOWN
     - annotation: !!omap
       - ec-code: 3.1.1.23
       - kegg.reaction: R01351
@@ -60973,6 +61593,17 @@
     - metabolites: !!omap
       - ttcosa_c: -1.0
       - ttcosa_l: 1.0
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000185
+  - !!omap
+    - id: TTCOSAt_c_rm
+    - name: tetracosanoate transport
+    - metabolites: !!omap
+      - ttcosa_c: -1.0
+      - ttcosa_rm: 1.0
     - lower_bound: -1000.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''

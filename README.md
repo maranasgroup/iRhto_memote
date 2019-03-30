@@ -5,7 +5,7 @@
 Memote-created repository for Rhodosporidium toruloides genome-scale metabolic model iRhto
 
 ## Current version
-iRhto1108: 03/28/2019
+iRhto1108: 03/30/2019
 
 
 ---

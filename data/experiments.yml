@@ -1,7 +1,34 @@
 version: "0.1"
 medium:
   path: "media/"
+  definitions:
+    m9:
+      filename: "m9.csv"
+    m9_glc:
+      filename: "m9_glc.csv"
+    ynb:
+      filename: "ynb.csv"
+    ypd:
+      filename: "ypd.csv"
+    ypd_glc:
+      filename: "ypd_glc.csv"
 essentiality:
   path: "essentiality/"
+  experiments:
+    knockouts:
+      filename: "knockout.csv"
+      medium: ypd_glc.csv
+      label: "Gene essentiality"
 growth:
   path: "growth/"
+  experiments:
+    growth_viability_carbon:
+      filename: "growth_viability_carbon.csv"
+      medium: m9
+      objective: Biomass
+      label: "Growth viability on carbon source"
+    growth_viability_nitrogen:
+      filename: "growth_viability_nitrogen.csv"
+      medium: m9_glc_no_nh4
+      objective: Biomass
+      label: "Growth viability on nitrogen source"
