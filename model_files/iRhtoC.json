@@ -64960,7 +64960,7 @@
 }
 },
 {
-"id":"ACOAO120a_x",
+"id":"ACOAO121a_x",
 "name":"acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)",
 "metabolites":{
 "dd25coa_x":1,
@@ -84026,7 +84026,7 @@
 }
 },
 {
-"id":"ACOAO120a_m",
+"id":"ACOAO121a_m",
 "name":"acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)",
 "metabolites":{
 "dd25coa_m":1,
@@ -84638,6 +84638,20 @@
 "subsystem":"Transport",
 "annotation":{
 "sbo":"SBO:0000185"
+}
+},
+{
+"id":"DM_gcald_c",
+"name":"Sink for glycoaldehyde to leave system",
+"metabolites":{
+"gcald_c":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreaction",
+"annotation":{
+"sbo":"SBO:0000628"
 }
 }
 ],

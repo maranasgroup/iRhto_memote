@@ -54013,7 +54013,7 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAO120a_x
+    - id: ACOAO121a_x
     - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
       - dd25coa_x: 1
@@ -69653,7 +69653,7 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAO120a_m
+    - id: ACOAO121a_m
     - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
       - dd25coa_m: 1
@@ -70156,6 +70156,17 @@
     - subsystem: Transport
     - annotation: !!omap
       - sbo: SBO:0000185
+  - !!omap
+    - id: DM_gcald_c
+    - name: Sink for glycoaldehyde to leave system
+    - metabolites: !!omap
+      - gcald_c: -1
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - subsystem: Pseudoreaction
+    - annotation: !!omap
+      - sbo: SBO:0000628
 - genes:
   - !!omap
     - id: rt0434

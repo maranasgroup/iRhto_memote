@@ -31728,7 +31728,7 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAO120a_m
+    - id: ACOAO121a_m
     - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
       - dd25coa_m: 1.0
@@ -31742,7 +31742,7 @@
       - ec-code: 1.3.3.6
       - sbo: SBO:0000176
   - !!omap
-    - id: ACOAO120a_x
+    - id: ACOAO121a_x
     - name: acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
       - dd25coa_x: 1.0
@@ -39003,6 +39003,16 @@
     - name: Sink for 5'-S-methyl-5'-thioadenosine to leave system
     - metabolites: !!omap
       - 5mta_c: -1.0
+    - lower_bound: 0.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: ''
+    - annotation: !!omap
+      - sbo: SBO:0000628
+  - !!omap
+    - id: DM_gcald_c
+    - name: Sink for glycoaldehyde to leave system
+    - metabolites: !!omap
+      - gcald_c: -1.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
