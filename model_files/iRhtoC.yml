@@ -31492,22 +31492,6 @@
       - pubchem.compound: '46907933'
       - sbo: SBO:0000247
   - !!omap
-    - id: fad_x
-    - name: FAD
-    - compartment: x
-    - charge: -3
-    - formula: C27H30N9O15P2
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:FAD
-      - chebi: CHEBI:57692
-      - kegg.compound: C00016
-      - pubchem.compound: '643975'
-      - sbo: SBO:0000247
-      - seed.compound: cpd00015
-      - ymdb: YMDB00296
-  - !!omap
     - id: fadh2_x
     - name: FADH2
     - compartment: x
@@ -31523,6 +31507,22 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00982
       - ymdb: YMDB00597
+  - !!omap
+    - id: fad_x
+    - name: FAD
+    - compartment: x
+    - charge: -3
+    - formula: C27H30N9O15P2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:FAD
+      - chebi: CHEBI:57692
+      - kegg.compound: C00016
+      - pubchem.compound: '643975'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00015
+      - ymdb: YMDB00296
   - !!omap
     - id: hxd2coa_x
     - name: trans-hexadec-2-enoyl-CoA

@@ -31492,22 +31492,6 @@
       - pubchem.compound: '46907933'
       - sbo: SBO:0000247
   - !!omap
-    - id: fad_x
-    - name: FAD
-    - compartment: x
-    - charge: -3
-    - formula: C27H30N9O15P2
-    - notes: !!omap
-      - formula_charge_source: biocyc
-    - annotation: !!omap
-      - biocyc: META:FAD
-      - chebi: CHEBI:57692
-      - kegg.compound: C00016
-      - pubchem.compound: '643975'
-      - sbo: SBO:0000247
-      - seed.compound: cpd00015
-      - ymdb: YMDB00296
-  - !!omap
     - id: fadh2_x
     - name: FADH2
     - compartment: x
@@ -31523,6 +31507,22 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00982
       - ymdb: YMDB00597
+  - !!omap
+    - id: fad_x
+    - name: FAD
+    - compartment: x
+    - charge: -3
+    - formula: C27H30N9O15P2
+    - notes: !!omap
+      - formula_charge_source: biocyc
+    - annotation: !!omap
+      - biocyc: META:FAD
+      - chebi: CHEBI:57692
+      - kegg.compound: C00016
+      - pubchem.compound: '643975'
+      - sbo: SBO:0000247
+      - seed.compound: cpd00015
+      - ymdb: YMDB00296
   - !!omap
     - id: hxd2coa_x
     - name: trans-hexadec-2-enoyl-CoA
@@ -68801,48 +68801,48 @@
     - id: Biomass_Rt_Nlim
     - name: Biomass equation for Rhto, N limitation condition
     - metabolites: !!omap
-      - 13BDglucan_c: -0.383831
-      - 16BDglucan_en: -0.101008
-      - G00006_c: -0.005944
-      - adp_c: 278.1513
-      - alatrna_c: -0.273839
+      - 13BDglucan_c: -0.383841
+      - 16BDglucan_en: -0.101011
+      - G00006_c: -0.005671
+      - adp_c: 154.94
+      - alatrna_c: -0.273846
       - amet_c: -0.0001
-      - argtrna_c: -0.10819
-      - asntrna_c: -0.130052
-      - asptrna_c: -0.130052
-      - atp_c: -278.152901
+      - argtrna_c: -0.108193
+      - asntrna_c: -0.130056
+      - asptrna_c: -0.130056
+      - atp_c: -154.941601
       - btn_c: -0.0001
       - ca2_c: -0.001286
       - chtn_c: -0.009075
       - coa_c: -0.0001
-      - ctp_c: -0.049137
+      - ctp_c: -0.049138
       - cu2_c: -0.000114
       - cystrna_c: -0.003924
       - datp_c: -0.021281
-      - dctp_c: -0.033215
-      - dgtp_c: -0.033215
+      - dctp_c: -0.033216
+      - dgtp_c: -0.033216
       - docosa_c: -0.000313
       - dttp_c: -0.021281
-      - epist_c: -0.791366
+      - epist_c: -0.791386
       - fad_c: -0.0001
       - fe2_c: -0.000664
-      - glntrna_c: -0.216941
-      - glutrna_c: -0.216941
-      - glytrna_c: -0.249174
+      - glntrna_c: -0.216946
+      - glutrna_c: -0.216946
+      - glytrna_c: -0.24918
       - gpianchorSC_r: -0.00652
-      - gtp_c: -0.043054
-      - h2o_c: -278.1513
-      - h_c: 278.1513
+      - gtp_c: -0.043055
+      - h2o_c: -154.94
+      - h_c: 154.94
       - hdca_c: -0.003776
       - hemeA_c: -0.0001
-      - histrna_c: -0.054095
-      - iletrna_c: -0.165088
-      - ipc_g: -0.022536
+      - histrna_c: -0.054096
+      - iletrna_c: -0.165092
+      - ipc_g: -0.022537
       - k_c: -0.60365
-      - leutrna_c: -0.224508
+      - leutrna_c: -0.224514
       - linoea_c: -0.004771
       - linolen_c: -0.001887
-      - lystrna_c: -0.184147
+      - lystrna_c: -0.184152
       - mettrna_c: -0.031953
       - mg2_c: -0.063607
       - mn2_c: -9.4e-05
@@ -68854,48 +68854,47 @@
       - pail_c: -0.006587
       - pc_c: -0.012365
       - pe_c: -0.002987
-      - phetrna_c: -0.105387
-      - pi_c: 278.045645
-      - ppi_c: 0.25509
-      - protrna_c: -0.11828
+      - phetrna_c: -0.10539
+      - pi_c: 154.834345
+      - ppi_c: 0.255097
+      - protrna_c: -0.118283
       - ps_c: -0.001601
-      - pydx5p_c: -0.0001
       - ribflv_c: -0.0001
-      - sertrna_c: -0.149392
+      - sertrna_c: -0.149396
       - so4_c: -0.031223
       - spmd_c: -0.0001
-      - tag_c: -0.097909
+      - tag_c: -0.097911
       - thf_c: -0.0001
       - thmpp_c: -0.0001
-      - thrtrna_c: -0.156119
-      - trnaala_c: 0.273839
-      - trnaarg_c: 0.10819
-      - trnaasn_c: 0.130052
-      - trnaasp_c: 0.130052
+      - thrtrna_c: -0.156123
+      - trnaala_c: 0.273846
+      - trnaarg_c: 0.108193
+      - trnaasn_c: 0.130056
+      - trnaasp_c: 0.130056
       - trnacys_c: 0.003924
-      - trnagln_c: 0.216941
-      - trnaglu_c: 0.216941
-      - trnagly_c: 0.249174
-      - trnahis_c: 0.054095
-      - trnaile_c: 0.165088
-      - trnaleu_c: 0.224508
-      - trnalys_c: 0.184147
+      - trnagln_c: 0.216946
+      - trnaglu_c: 0.216946
+      - trnagly_c: 0.24918
+      - trnahis_c: 0.054096
+      - trnaile_c: 0.165092
+      - trnaleu_c: 0.224514
+      - trnalys_c: 0.184152
       - trnamet_c: 0.031953
-      - trnaphe_c: 0.105387
-      - trnapro_c: 0.11828
-      - trnaser_c: 0.149392
-      - trnathr_c: 0.156119
+      - trnaphe_c: 0.10539
+      - trnapro_c: 0.118283
+      - trnaser_c: 0.149396
+      - trnathr_c: 0.156123
       - trnatrp_c: 0.018219
-      - trnatyr_c: 0.054936
-      - trnaval_c: 0.205449
+      - trnatyr_c: 0.054937
+      - trnaval_c: 0.205454
       - trptrna_c: -0.018219
       - ttcosa_c: -0.001249
-      - tyrtrna_c: -0.054936
+      - tyrtrna_c: -0.054937
       - utp_c: -0.025757
-      - valtrna_c: -0.205449
+      - valtrna_c: -0.205454
       - zn2_c: -0.001576
-    - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - lower_bound: 0
+    - upper_bound: 1000
     - gene_reaction_rule: ''
     - objective_coefficient: 1.0
     - subsystem: Pseudoreaction
