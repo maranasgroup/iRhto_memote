@@ -7,8 +7,8 @@ Memote-created repository for Rhodosporidium toruloides genome-scale metabolic m
 iRhto1108: 04/09/2019 (on release)
 
 ## Usage
-Hoang Dinh, 2019-04-09<br>
-As of current, the gene-protein-reaction rules in model SBML (.xml) file are errorneous due to a bug in "cobra.io.write_sbml_model". Please use the model in the JSON (.json) format if possible. Information provided in the excel files are also correct.<br>
+Hoang Dinh, 2019-06-27<br>
+Issues of GPR in SBML model (.XML) fixed.<br>
 <br>
 Multiple formats of the model (JSON, SBML, MATLAB, YAML, and Excel) are in "iRhto_memote/model_files". Supplementary files including details on biomass reaction, escher maps for visualization, and memote report are in "iRhto_memote/supplementary_files".<br>
 <br>
