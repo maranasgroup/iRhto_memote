@@ -1,4 +1,4 @@
-[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://hvdinh16.github.io/iRhto_memote)
+[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://github.com/maranasgroup/iRhto_memote/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2647589.svg)](https://doi.org/10.5281/zenodo.2647589)
 
 # iRhto_memote
 Memote-created repository for Rhodosporidium toruloides genome-scale metabolic model iRhto
