@@ -16,6 +16,6 @@ The model is also available on KBase at https://narrative.kbase.us/narrative/ws.
 
 ## Reference
 If you use this model or associated results, please cite and reference the following article:<br>
-A comprehensive genome-scale model for Rhodosporidium toruloides IFO0880 accounting for functional genomics and phenotypic data. Hoang V Dinh, Patrick F Suthers, Siu Hung Joshua Chan, Yihui Shen, Tianxia Xiao, Anshu Deewan, Sujit S Jagtap, Joshua D Rabinowitz, Christopher V Rao, Huimin Zhao, Costas D Maranas. bioRxiv 594846; doi: https://doi.org/10.1101/594846
+A comprehensive genome-scale model for Rhodosporidium toruloides IFO0880 accounting for functional genomics and phenotypic data. Hoang V Dinh, Patrick F Suthers, Siu Hung Joshua Chan, Yihui Shen, Tianxia Xiao, Anshu Deewan, Sujit S Jagtap, Joshua D Rabinowitz, Christopher V Rao, Huimin Zhao, Costas D Maranas. Met Eng Comm. e00101. doi: https://doi.org/10.1016/j.mec.2019.e00101
 
 ---
