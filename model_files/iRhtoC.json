@@ -3179,8 +3179,8 @@
 "id":"3ohodcoa_x",
 "name":"3-oxooctadecanoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C39H65N7O18P3S",
+"charge":-4,
+"formula":"C39H64N7O18P3S",
 "notes":{
 "formula_charge_source":"seed.compound",
 "yeastgem76.compound":"s_0250",
@@ -11759,8 +11759,8 @@
 "id":"hxccoa_c",
 "name":"hexacosanoyl-CoA",
 "compartment":"c",
-"charge":0,
-"formula":"C47H86N7O17P3S",
+"charge":-4,
+"formula":"C47H82N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_0816",
@@ -11777,8 +11777,8 @@
 "id":"hxccoa_r",
 "name":"hexacosanoyl-CoA",
 "compartment":"r",
-"charge":0,
-"formula":"C47H86N7O17P3S",
+"charge":-4,
+"formula":"C47H82N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_0817",
@@ -11795,8 +11795,8 @@
 "id":"hxccoa_x",
 "name":"hexacosanoyl-CoA",
 "compartment":"x",
-"charge":0,
-"formula":"C47H86N7O17P3S",
+"charge":-4,
+"formula":"C47H82N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_0819",
@@ -19374,7 +19374,7 @@
 "name":"sodium",
 "compartment":"c",
 "charge":1,
-"formula":"NA1",
+"formula":"Na",
 "notes":{
 "formula_charge_source":"biocyc",
 "yeastgem76.compound":"s_1437",
@@ -19395,7 +19395,7 @@
 "name":"sodium",
 "compartment":"e",
 "charge":1,
-"formula":"NA1",
+"formula":"Na",
 "notes":{
 "formula_charge_source":"biocyc",
 "yeastgem76.compound":"s_1438",
@@ -20372,8 +20372,8 @@
 "id":"hxc2coa_x",
 "name":"trans-hexacos-2-enoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C47H81N7O17P3S",
+"charge":-4,
+"formula":"C47H80N7O17P3S",
 "notes":{
 "formula_charge_source":"seed.compound",
 "yeastgem76.compound":"s_1513",
@@ -22628,8 +22628,8 @@
 "id":"3hicoscoa_rm",
 "name":"3-hydroxyicosanoyl-CoA",
 "compartment":"rm",
-"charge":0,
-"formula":"C41H74N7O18P3S",
+"charge":-4,
+"formula":"C41H70N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2804",
@@ -22724,8 +22724,8 @@
 "id":"ic2coa_rm",
 "name":"trans-icos-2-enoyl-CoA",
 "compartment":"rm",
-"charge":0,
-"formula":"C41H72N7O17P3S",
+"charge":-4,
+"formula":"C41H68N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2812",
@@ -22771,8 +22771,8 @@
 "id":"hxc2coa_rm",
 "name":"trans-hexacos-2-enoyl-CoA",
 "compartment":"rm",
-"charge":-3,
-"formula":"C47H81N7O17P3S",
+"charge":-4,
+"formula":"C47H80N7O17P3S",
 "notes":{
 "formula_charge_source":"seed.compound",
 "yeastgem76.compound":"s_2815",
@@ -22790,8 +22790,8 @@
 "id":"hxccoa_rm",
 "name":"hexacosanoyl-CoA",
 "compartment":"rm",
-"charge":0,
-"formula":"C47H86N7O17P3S",
+"charge":-4,
+"formula":"C47H82N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2816",
@@ -23688,23 +23688,6 @@
 }
 },
 {
-"id":"docosac_en",
-"name":"behenate",
-"compartment":"en",
-"charge":-1,
-"formula":"C22H43O2",
-"notes":{
-"formula_charge_source":"biocyc",
-"yeastgem76.compound":"s_2862",
-"yeastkegg_id":"s_2862[c_02]"
-},
-"annotation":{
-"biocyc":"META:DOCOSANOATE",
-"pubchem.compound":"5460660",
-"sbo":"SBO:0000247"
-}
-},
-{
 "id":"docoscoa_en",
 "name":"docosanoyl-CoA",
 "compartment":"en",
@@ -23782,23 +23765,6 @@
 }
 },
 {
-"id":"docosac_rm",
-"name":"behenate",
-"compartment":"rm",
-"charge":-1,
-"formula":"C22H43O2",
-"notes":{
-"formula_charge_source":"biocyc",
-"yeastgem76.compound":"s_2868",
-"yeastkegg_id":"s_2868[c_05]"
-},
-"annotation":{
-"biocyc":"META:DOCOSANOATE",
-"pubchem.compound":"5460660",
-"sbo":"SBO:0000247"
-}
-},
-{
 "id":"hxca_rm",
 "name":"cerotic acid",
 "compartment":"rm",
@@ -23815,23 +23781,6 @@
 "pubchem.compound":"5461023",
 "sbo":"SBO:0000247",
 "ymdb":"YMDB00785"
-}
-},
-{
-"id":"docosac_l",
-"name":"behenate",
-"compartment":"l",
-"charge":-1,
-"formula":"C22H43O2",
-"notes":{
-"formula_charge_source":"biocyc",
-"yeastgem76.compound":"s_2871",
-"yeastkegg_id":"s_2871[c_09]"
-},
-"annotation":{
-"biocyc":"META:DOCOSANOATE",
-"pubchem.compound":"5460660",
-"sbo":"SBO:0000247"
 }
 },
 {
@@ -24203,8 +24152,8 @@
 "id":"ic2coa_x",
 "name":"trans-icos-2-enoyl-CoA",
 "compartment":"x",
-"charge":0,
-"formula":"C41H72N7O17P3S",
+"charge":-4,
+"formula":"C41H68N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2889",
@@ -24250,8 +24199,8 @@
 "id":"hxd29coa_x",
 "name":"trans-2,cis-9-hexadecadienoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C37H56N7O17P3S",
+"charge":-4,
+"formula":"C37H58N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2892",
@@ -24265,8 +24214,8 @@
 "id":"td7coa_x",
 "name":"cis-tetradec-7-enoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C35H54N7O17P3S",
+"charge":-4,
+"formula":"C35H56N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2893",
@@ -24280,8 +24229,8 @@
 "id":"td27coa_x",
 "name":"trans-2,cis-7-tetradecadienoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C35H52N7O17P3S",
+"charge":-4,
+"formula":"C35H54N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2894",
@@ -24325,8 +24274,8 @@
 "id":"od29coa_x",
 "name":"trans-2,cis-9-octadecadienoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C39H60N7O17P3S",
+"charge":-4,
+"formula":"C39H62N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2897",
@@ -24357,8 +24306,8 @@
 "id":"hxd27coa_x",
 "name":"trans-2,cis-7-hexadecadienoyl-CoA",
 "compartment":"x",
-"charge":-5,
-"formula":"C37H57N7O17P3S",
+"charge":-4,
+"formula":"C37H58N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2899",
@@ -24589,8 +24538,8 @@
 "id":"3htccoa__R_x",
 "name":"(R)-3-hydroxytetracosanoyl-CoA",
 "compartment":"x",
-"charge":0,
-"formula":"C45H82N7O18P3S",
+"charge":-4,
+"formula":"C45H78N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2907",
@@ -24606,8 +24555,8 @@
 "id":"hxc9coa_x",
 "name":"(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C37H58N7O18P3S",
+"charge":-4,
+"formula":"C37H60N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2908",
@@ -24621,8 +24570,8 @@
 "id":"3htd7coa_x",
 "name":"(R)-3-hydroxy-cis-tetradec-7-enoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C35H54N7O18P3S",
+"charge":-4,
+"formula":"C35H56N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2909",
@@ -24651,8 +24600,8 @@
 "id":"3hod9coa_x",
 "name":"(R)-3-hydroxy-cis-octadec-9-enoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C39H62N7O18P3S",
+"charge":-4,
+"formula":"C39H64N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2911",
@@ -24666,8 +24615,8 @@
 "id":"3hhxd7coa_x",
 "name":"(R)-3-hydroxy-cis-hexadec-7-enoyl-CoA",
 "compartment":"x",
-"charge":-5,
-"formula":"C37H59N7O18P3S",
+"charge":-4,
+"formula":"C37H60N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2912",
@@ -24808,8 +24757,8 @@
 "id":"3ohxd9coa_x",
 "name":"3-oxo-cis-hexadec-9-enoyl-CoA",
 "compartment":"x",
-"charge":-6,
-"formula":"C37H56N7O18P3S",
+"charge":-4,
+"formula":"C37H58N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2920",
@@ -24838,8 +24787,8 @@
 "id":"3odd5coa_x",
 "name":"3-oxo-cis-dodec-5-enoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C33H51N7O18P3S",
+"charge":-4,
+"formula":"C33H50N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2922",
@@ -24853,8 +24802,8 @@
 "id":"3ood9coa_x",
 "name":"3-oxo-cis-octadec-9-enoyl-CoA",
 "compartment":"x",
-"charge":-5,
-"formula":"C39H61N7O18P3S",
+"charge":-4,
+"formula":"C39H62N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2923",
@@ -24883,8 +24832,8 @@
 "id":"3otd5coa_x",
 "name":"3-oxo-cis-tetradec-5-enoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C35H55N7O18P3S",
+"charge":-4,
+"formula":"C35H54N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2925",
@@ -24898,8 +24847,8 @@
 "id":"dc3coa_x",
 "name":"cis-dec-3-enoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C31H49N7O17P3S",
+"charge":-4,
+"formula":"C31H48N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2926",
@@ -24913,8 +24862,8 @@
 "id":"dd3coa__Z_x",
 "name":"cis-dodec-3-enoyl-CoA",
 "compartment":"x",
-"charge":-3,
-"formula":"C33H53N7O17P3S",
+"charge":-4,
+"formula":"C33H52N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound",
 "yeastgem76.compound":"s_2927",
@@ -26951,21 +26900,6 @@
 }
 },
 {
-"id":"crn140_m",
-"name":"myristoyl-carnitine",
-"compartment":"m",
-"charge":0,
-"formula":"C21H41NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:73061",
-"pubchem.compound":"6426854",
-"sbo":"SBO:0000247"
-}
-},
-{
 "id":"butACP_c",
 "name":"butanoyl-ACP",
 "compartment":"c",
@@ -28000,23 +27934,6 @@
 }
 },
 {
-"id":"crn160_m",
-"name":"L-Palmitoylcarnitine",
-"compartment":"m",
-"charge":0,
-"formula":"C23H45N1O4",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:CPD-419",
-"kegg.compound":"C02990",
-"pubchem.compound":"11953816",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd01915"
-}
-},
-{
 "id":"ddcacoa_m",
 "name":"lauroyl-CoA",
 "compartment":"m",
@@ -28098,21 +28015,6 @@
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03129",
 "ymdb":"YMDB00463"
-}
-},
-{
-"id":"crn180_m",
-"name":"stearoyl-carnitine",
-"compartment":"m",
-"charge":0,
-"formula":"C25H49NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:84644",
-"pubchem.compound":"52922056",
-"sbo":"SBO:0000247"
 }
 },
 {
@@ -28409,23 +28311,6 @@
 }
 },
 {
-"id":"hdcoa_m",
-"name":"palmitoleoyl-CoA",
-"compartment":"m",
-"charge":-4,
-"formula":"C37H60N7O17P3S1",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:CPD-10269",
-"chebi":"CHEBI:61540",
-"pubchem.compound":"25244393",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd15238"
-}
-},
-{
 "id":"btcoa_c",
 "name":"butanoyl-CoA",
 "compartment":"c",
@@ -28688,8 +28573,8 @@
 "id":"3ohodcoa_m",
 "name":"3-oxooctadecanoyl-CoA",
 "compartment":"m",
-"charge":-3,
-"formula":"C39H65N7O18P3S",
+"charge":-4,
+"formula":"C39H64N7O18P3S",
 "notes":{
 "formula_charge_source":"seed.compound"
 },
@@ -28704,7 +28589,7 @@
 },
 {
 "id":"crn120_m",
-"name":"dodecanoyl-carnitine",
+"name":"lauroyl-L-carnitine",
 "compartment":"m",
 "charge":0,
 "formula":"C19H37NO4",
@@ -28712,6 +28597,7 @@
 "formula_charge_source":"manual"
 },
 "annotation":{
+"biocyc":"META:CPD-19743",
 "chebi":"CHEBI:77086",
 "pubchem.compound":"168381",
 "sbo":"SBO:0000247"
@@ -29065,7 +28951,7 @@
 "name":"Cl-",
 "compartment":"c",
 "charge":-1,
-"formula":"CL1",
+"formula":"Cl",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -29131,7 +29017,7 @@
 "name":"Cl-",
 "compartment":"e",
 "charge":-1,
-"formula":"CL1",
+"formula":"Cl",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -31323,12 +31209,13 @@
 "id":"tmlys_m",
 "name":"N6,N6,N6-Trimethyl-L-lysine",
 "compartment":"m",
-"charge":1,
-"formula":"C9H21N2O2",
+"charge":0,
+"formula":"C9H20N2O2",
 "notes":{
 "formula_charge_source":"seed.compound"
 },
 "annotation":{
+"META:N6N6N6":"TRIMETHYL-L-LYSINE",
 "kegg.compound":"C03793",
 "pubchem.compound":"440120",
 "sbo":"SBO:0000247",
@@ -31339,8 +31226,8 @@
 "id":"3htmelys_m",
 "name":"3-Hydroxy-N6,N6,N6-trimethyl-L-lysine",
 "compartment":"m",
-"charge":1,
-"formula":"C9H21N2O3",
+"charge":0,
+"formula":"C9H20N2O3",
 "notes":{
 "formula_charge_source":"seed.compound"
 },
@@ -31906,21 +31793,6 @@
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00022",
 "ymdb":"YMDB00312"
-}
-},
-{
-"id":"docosac_x",
-"name":"behenate",
-"compartment":"x",
-"charge":-1,
-"formula":"C22H43O2",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:DOCOSANOATE",
-"pubchem.compound":"5460660",
-"sbo":"SBO:0000247"
 }
 },
 {
@@ -33246,8 +33118,8 @@
 "id":"td7coa_m",
 "name":"cis-tetradec-7-enoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C35H54N7O17P3S",
+"charge":-4,
+"formula":"C35H56N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33259,8 +33131,8 @@
 "id":"3ohxd9coa_m",
 "name":"3-oxo-cis-hexadec-9-enoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C37H56N7O18P3S",
+"charge":-4,
+"formula":"C37H58N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33298,8 +33170,8 @@
 "id":"3odd5coa_m",
 "name":"3-oxo-cis-dodec-5-enoyl-CoA",
 "compartment":"m",
-"charge":-3,
-"formula":"C33H51N7O18P3S",
+"charge":-4,
+"formula":"C33H50N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33311,8 +33183,8 @@
 "id":"dc3coa_m",
 "name":"cis-dec-3-enoyl-CoA",
 "compartment":"m",
-"charge":-3,
-"formula":"C31H49N7O17P3S",
+"charge":-4,
+"formula":"C31H48N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33324,8 +33196,8 @@
 "id":"3ood9coa_m",
 "name":"3-oxo-cis-octadec-9-enoyl-CoA",
 "compartment":"m",
-"charge":-5,
-"formula":"C39H61N7O18P3S",
+"charge":-4,
+"formula":"C39H62N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33379,8 +33251,8 @@
 "id":"3otd5coa_m",
 "name":"3-oxo-cis-tetradec-5-enoyl-CoA",
 "compartment":"m",
-"charge":-3,
-"formula":"C35H55N7O18P3S",
+"charge":-4,
+"formula":"C35H54N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33392,8 +33264,8 @@
 "id":"dd3coa__Z_m",
 "name":"cis-dodec-3-enoyl-CoA",
 "compartment":"m",
-"charge":-3,
-"formula":"C33H53N7O17P3S",
+"charge":-4,
+"formula":"C33H52N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33444,8 +33316,8 @@
 "id":"hxc9coa_m",
 "name":"(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C37H58N7O18P3S",
+"charge":-4,
+"formula":"C37H60N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33457,8 +33329,8 @@
 "id":"hxd29coa_m",
 "name":"trans-2,cis-9-hexadecadienoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C37H56N7O17P3S",
+"charge":-4,
+"formula":"C37H58N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33470,8 +33342,8 @@
 "id":"3htd7coa_m",
 "name":"(R)-3-hydroxy-cis-tetradec-7-enoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C35H54N7O18P3S",
+"charge":-4,
+"formula":"C35H56N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33483,8 +33355,8 @@
 "id":"td27coa_m",
 "name":"trans-2,cis-7-tetradecadienoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C35H52N7O17P3S",
+"charge":-4,
+"formula":"C35H54N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33522,8 +33394,8 @@
 "id":"od29coa_m",
 "name":"trans-2,cis-9-octadecadienoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C39H60N7O17P3S",
+"charge":-4,
+"formula":"C39H62N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33535,8 +33407,8 @@
 "id":"3hod9coa_m",
 "name":"(R)-3-hydroxy-cis-octadec-9-enoyl-CoA",
 "compartment":"m",
-"charge":-6,
-"formula":"C39H62N7O18P3S",
+"charge":-4,
+"formula":"C39H64N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33548,8 +33420,8 @@
 "id":"hxd27coa_m",
 "name":"trans-2,cis-7-hexadecadienoyl-CoA",
 "compartment":"m",
-"charge":-5,
-"formula":"C37H57N7O17P3S",
+"charge":-4,
+"formula":"C37H58N7O17P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -33561,8 +33433,8 @@
 "id":"3hhxd7coa_m",
 "name":"(R)-3-hydroxy-cis-hexadec-7-enoyl-CoA",
 "compartment":"m",
-"charge":-5,
-"formula":"C37H59N7O18P3S",
+"charge":-4,
+"formula":"C37H60N7O18P3S",
 "notes":{
 "formula_charge_source":"yeastgem76.compound"
 },
@@ -34197,7 +34069,7 @@
 "name":"Calcium ion",
 "compartment":"c",
 "charge":2,
-"formula":"CA1",
+"formula":"Ca",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34231,7 +34103,7 @@
 "name":"Copper(II) ion",
 "compartment":"c",
 "charge":2,
-"formula":"CU1",
+"formula":"Cu",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34248,7 +34120,7 @@
 "name":"Magnesium ion",
 "compartment":"c",
 "charge":2,
-"formula":"MG1",
+"formula":"Mg",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34265,7 +34137,7 @@
 "name":"Manganese(II) ion",
 "compartment":"c",
 "charge":2,
-"formula":"MN1",
+"formula":"Mn",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34316,7 +34188,7 @@
 "name":"Zinc(II) ion",
 "compartment":"c",
 "charge":2,
-"formula":"ZN1",
+"formula":"Zn",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34333,7 +34205,7 @@
 "name":"Calcium ion",
 "compartment":"e",
 "charge":2,
-"formula":"CA1",
+"formula":"Ca",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34367,7 +34239,7 @@
 "name":"Copper(II) ion",
 "compartment":"e",
 "charge":2,
-"formula":"CU1",
+"formula":"Cu",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34384,7 +34256,7 @@
 "name":"Magnesium ion",
 "compartment":"e",
 "charge":2,
-"formula":"MG1",
+"formula":"Mg",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34401,7 +34273,7 @@
 "name":"Manganese(II) ion",
 "compartment":"e",
 "charge":2,
-"formula":"MN1",
+"formula":"Mn",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -34452,7 +34324,7 @@
 "name":"Zinc(II) ion",
 "compartment":"e",
 "charge":2,
-"formula":"ZN1",
+"formula":"Zn",
 "notes":{
 "formula_charge_source":"biocyc"
 },
@@ -36473,7 +36345,7 @@
 },
 {
 "id":"linolncoa_rm",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"rm",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36490,7 +36362,7 @@
 },
 {
 "id":"linolncoa_c",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"c",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36507,7 +36379,7 @@
 },
 {
 "id":"linolncoa_l",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"l",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36524,7 +36396,7 @@
 },
 {
 "id":"linolen_c",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"c",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36540,7 +36412,7 @@
 },
 {
 "id":"linolen_l",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"l",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36556,7 +36428,7 @@
 },
 {
 "id":"linolen_rm",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"rm",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36572,7 +36444,7 @@
 },
 {
 "id":"linolncoa_x",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"x",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36589,7 +36461,7 @@
 },
 {
 "id":"linolen_x",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"x",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36879,7 +36751,7 @@
 },
 {
 "id":"linolncoa_m",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"m",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36896,7 +36768,7 @@
 },
 {
 "id":"linolncoa_r",
-"name":"linolenoyl-CoA",
+"name":"alpha-linolenoyl-CoA",
 "compartment":"r",
 "charge":-4,
 "formula":"C39H60N7O17P3S",
@@ -36931,7 +36803,7 @@
 },
 {
 "id":"linolen_mm",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"mm",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36947,7 +36819,7 @@
 },
 {
 "id":"linolen_m",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"m",
 "charge":-1,
 "formula":"C18H29O2",
@@ -36963,7 +36835,7 @@
 },
 {
 "id":"linolen_en",
-"name":"linolenate",
+"name":"alpha-linolenate",
 "compartment":"en",
 "charge":-1,
 "formula":"C18H29O2",
@@ -37297,37 +37169,6 @@
 }
 },
 {
-"id":"crn161_m",
-"name":"hexadecenoyl-carnitine",
-"compartment":"m",
-"charge":0,
-"formula":"C23H43NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:88544",
-"pubchem.compound":"53481653",
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"crn181_m",
-"name":"Oleoyl-L-carnitine",
-"compartment":"m",
-"charge":0,
-"formula":"C25H47NO4",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:CPD-20402",
-"chebi.compound":"CHEBI:84651",
-"pubchem.compound":"46907933",
-"sbo":"SBO:0000247"
-}
-},
-{
 "id":"crn120_x",
 "name":"dodecanoyl-carnitine",
 "compartment":"x",
@@ -37340,102 +37181,6 @@
 "chebi":"CHEBI:77086",
 "pubchem.compound":"168381",
 "sbo":"SBO:0000247"
-}
-},
-{
-"id":"crn140_x",
-"name":"myristoyl-carnitine",
-"compartment":"x",
-"charge":0,
-"formula":"C21H41NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:73061",
-"pubchem.compound":"6426854",
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"crn160_x",
-"name":"L-Palmitoylcarnitine",
-"compartment":"x",
-"charge":0,
-"formula":"C23H45N1O4",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:CPD-419",
-"kegg.compound":"C02990",
-"pubchem.compound":"11953816",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd01915"
-}
-},
-{
-"id":"crn180_x",
-"name":"stearoyl-carnitine",
-"compartment":"x",
-"charge":0,
-"formula":"C25H49NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:84644",
-"pubchem.compound":"52922056",
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"crn161_x",
-"name":"hexadecenoyl-carnitine",
-"compartment":"x",
-"charge":0,
-"formula":"C23H43NO4",
-"notes":{
-"formula_charge_source":"manual"
-},
-"annotation":{
-"chebi":"CHEBI:88544",
-"pubchem.compound":"53481653",
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"crn181_x",
-"name":"Oleoyl-L-carnitine",
-"compartment":"x",
-"charge":0,
-"formula":"C25H47NO4",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"chebi.compound":"CHEBI:84651",
-"pubchem.compound":"46907933",
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"fadh2_x",
-"name":"FADH2",
-"compartment":"x",
-"charge":-2,
-"formula":"C27H33N9O15P2",
-"notes":{
-"formula_charge_source":"biocyc"
-},
-"annotation":{
-"biocyc":"META:FADH2",
-"chebi":"CHEBI:58307",
-"kegg.compound":"C01352",
-"pubchem.compound":"446013",
-"sbo":"SBO:0000247",
-"seed.compound":"cpd00982",
-"ymdb":"YMDB00597"
 }
 },
 {
@@ -37458,71 +37203,22 @@
 }
 },
 {
-"id":"hxd2coa_x",
-"name":"trans-hexadec-2-enoyl-CoA",
+"id":"fadh2_x",
+"name":"FADH2",
 "compartment":"x",
-"charge":-4,
-"formula":"C37H60N7O17P3S1",
+"charge":-2,
+"formula":"C27H33N9O15P2",
 "notes":{
-"formula_charge_source":"manual"
+"formula_charge_source":"biocyc"
 },
 "annotation":{
-"biocyc":"META:CPD0-2117",
-"pubchem.compound":"25271599",
+"biocyc":"META:FADH2",
+"chebi":"CHEBI:58307",
+"kegg.compound":"C01352",
+"pubchem.compound":"446013",
 "sbo":"SBO:0000247",
-"ymdb":"YMDB00469"
-}
-},
-{
-"id":"dd35coa_m",
-"name":"trans-3,cis-5-dodecadienoyl-CoA",
-"compartment":"m",
-"charge":-4,
-"formula":"C33H50N7O17P3S",
-"notes":{
-"formula_charge_source":"yeastgem76.compound"
-},
-"annotation":{
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"dd3coa__E_m",
-"name":"trans-dodec-3-enoyl-CoA",
-"compartment":"m",
-"charge":-4,
-"formula":"C33H52N7O17P3S",
-"notes":{
-"formula_charge_source":"yeastgem76.compound"
-},
-"annotation":{
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"td35coa_m",
-"name":"trans-3,cis-5-tetradecadienoyl-CoA",
-"compartment":"m",
-"charge":-4,
-"formula":"C35H54N7O17P3S",
-"notes":{
-"formula_charge_source":"yeastgem76.compound"
-},
-"annotation":{
-"sbo":"SBO:0000247"
-}
-},
-{
-"id":"td3coa_m",
-"name":"trans-tetradec-3-enoyl-CoA",
-"compartment":"m",
-"charge":-4,
-"formula":"C35H56N7O17P3S",
-"notes":{
-"formula_charge_source":"yeastgem76.compound"
-},
-"annotation":{
-"sbo":"SBO:0000247"
+"seed.compound":"cpd00982",
+"ymdb":"YMDB00597"
 }
 },
 {
@@ -37557,6 +37253,1017 @@
 "pubchem.compound":"5461023",
 "sbo":"SBO:0000247",
 "ymdb":"YMDB00785"
+}
+},
+{
+"id":"crn40_m",
+"name":"butanoyl-L-carnitine",
+"compartment":"m",
+"charge":0,
+"formula":"C11H21NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19738",
+"chebi":"CHEBI:21949",
+"pubchem.compound":"88730540.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn60_m",
+"name":"hexanoyl-L-carnitine",
+"compartment":"m",
+"charge":0,
+"formula":"C13H25NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19739",
+"chebi":"CHEBI:84834",
+"pubchem.compound":"3246938.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn80_m",
+"name":"octanoyl-L-carnitine",
+"compartment":"m",
+"charge":0,
+"formula":"C15H29NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:L-OCTANOYLCARNITINE",
+"chebi":"CHEBI:18102",
+"kegg.compound":"C02838",
+"pubchem.compound":"11953814.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn100_m",
+"name":"decanoyl-L-carnitine",
+"compartment":"m",
+"charge":0,
+"formula":"C17H33NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19741",
+"chebi":"CHEBI:28717",
+"kegg.compound":"C03299",
+"pubchem.compound":"11953821.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"4tmeabut_m",
+"name":"4-Trimethylammoniobutanal",
+"compartment":"m",
+"charge":1,
+"formula":"C7H16NO",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"kegg.compound":"C01149",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"4tmeabutn_m",
+"name":"4-Trimethylammoniobutanoate",
+"compartment":"m",
+"charge":0,
+"formula":"C7H15NO2",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:GAMMA-BUTYROBETAINE",
+"kegg.compound":"C01181",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn40_x",
+"name":"butanoyl-L-carnitine",
+"compartment":"x",
+"charge":0,
+"formula":"C11H21NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19738",
+"chebi":"CHEBI:21949",
+"pubchem.compound":"88730540.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn40_c",
+"name":"butanoyl-L-carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C11H21NO4",
+"annotation":{
+"biocyc":"META:CPD-19738",
+"chebi":"CHEBI:21949",
+"pubchem.compound":"88730540.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn60_x",
+"name":"hexanoyl-L-carnitine",
+"compartment":"x",
+"charge":0,
+"formula":"C13H25NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19739",
+"chebi":"CHEBI:84834",
+"pubchem.compound":"3246938.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn60_c",
+"name":"hexanoyl-L-carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C13H25NO4",
+"annotation":{
+"biocyc":"META:CPD-19739",
+"chebi":"CHEBI:84834",
+"pubchem.compound":"3246938.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn80_x",
+"name":"octanoyl-L-carnitine",
+"compartment":"x",
+"charge":0,
+"formula":"C15H29NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:L-OCTANOYLCARNITINE",
+"chebi":"CHEBI:18102",
+"kegg.compound":"C02838",
+"pubchem.compound":"11953814.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn80_c",
+"name":"octanoyl-L-carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C15H29NO4",
+"annotation":{
+"biocyc":"META:L-OCTANOYLCARNITINE",
+"chebi":"CHEBI:18102",
+"kegg.compound":"C02838",
+"pubchem.compound":"11953814.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn100_x",
+"name":"decanoyl-L-carnitine",
+"compartment":"x",
+"charge":0,
+"formula":"C17H33NO4",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:CPD-19741",
+"chebi":"CHEBI:28717",
+"kegg.compound":"C03299",
+"pubchem.compound":"11953821.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn100_c",
+"name":"decanoyl-L-carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C17H33NO4",
+"annotation":{
+"biocyc":"META:CPD-19741",
+"chebi":"CHEBI:28717",
+"kegg.compound":"C03299",
+"pubchem.compound":"11953821.0",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"crn120_c",
+"name":"lauroyl-L-carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C19H37NO4",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"biocyc":"META:CPD-19743",
+"chebi":"CHEBI:77086",
+"pubchem.compound":"168381",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"acac_x",
+"name":"Acetoacetate",
+"compartment":"x",
+"charge":-1,
+"formula":"C4H5O3",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:3-KETOBUTYRATE",
+"kegg.compound":"C00164",
+"pubchem.compound":"96",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00142"
+}
+},
+{
+"id":"ppa_m",
+"name":"propionate (n-C3:0)",
+"compartment":"m",
+"charge":-1,
+"formula":"C3H5O2",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:PROPIONATE",
+"kegg.compound":"C00163",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"ppa_c",
+"name":"propionate (n-C3:0)",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O2",
+"annotation":{
+"biocyc":"META:PROPIONATE",
+"kegg.compound":"C00163",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"ppa_e",
+"name":"propionate (n-C3:0)",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H5O2",
+"annotation":{
+"biocyc":"META:PROPIONATE",
+"kegg.compound":"C00163",
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dha_x",
+"name":"glycerone",
+"compartment":"x",
+"charge":0,
+"formula":"C3H6O3",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:DIHYDROXYACETONE",
+"chebi":"CHEBI:16016",
+"kegg.compound":"C00184",
+"pubchem.compound":"670",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00157",
+"ymdb":"YMDB00018"
+}
+},
+{
+"id":"fald_x",
+"name":"formaldehyde",
+"compartment":"x",
+"charge":0,
+"formula":"C1H2O1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:FORMALDEHYDE",
+"chebi":"CHEBI:16842",
+"kegg.compound":"C00067",
+"pubchem.compound":"712",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00055",
+"ymdb":"YMDB00321"
+}
+},
+{
+"id":"g3p_x",
+"name":"glyceraldehyde 3-phosphate",
+"compartment":"x",
+"charge":-2,
+"formula":"C3H5O6P1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:GAP",
+"chebi":"CHEBI:58027",
+"kegg.compound":"C00118",
+"pubchem.compound":"439168",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00102",
+"ymdb":"YMDB00115"
+}
+},
+{
+"id":"xu5p__D_x",
+"name":"D-xylulose 5-phosphate",
+"compartment":"x",
+"charge":-2,
+"formula":"C5H9O8P1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:XYLULOSE-5-PHOSPHATE",
+"chebi":"CHEBI:57737",
+"kegg.compound":"C00231",
+"pubchem.compound":"439190",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00198",
+"ymdb":"YMDB00362"
+}
+},
+{
+"id":"fald_e",
+"name":"formaldehyde",
+"compartment":"e",
+"charge":0,
+"formula":"C1H2O1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:FORMALDEHYDE",
+"chebi":"CHEBI:16842",
+"kegg.compound":"C00067",
+"pubchem.compound":"712",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00055",
+"ymdb":"YMDB00321"
+}
+},
+{
+"id":"lac__L_x",
+"name":"(S)-lactate",
+"compartment":"x",
+"charge":-1,
+"formula":"C3H5O3",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:L-LACTATE",
+"chebi":"CHEBI:16651",
+"kegg.compound":"C00186",
+"pubchem.compound":"107689",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00159",
+"ymdb":"YMDB00247"
+}
+},
+{
+"id":"dhap_x",
+"name":"dihydroxyacetone phosphate",
+"compartment":"x",
+"charge":-2,
+"formula":"C3H5O6P1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:DIHYDROXY-ACETONE-PHOSPHATE",
+"chebi":"CHEBI:57642",
+"kegg.compound":"C00111",
+"pubchem.compound":"668",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00095",
+"ymdb":"YMDB00322"
+}
+},
+{
+"id":"glyc3p_x",
+"name":"glycerol 3-phosphate",
+"compartment":"x",
+"charge":-2,
+"formula":"C3H7O6P1",
+"notes":{
+"formula_charge_source":"biocyc"
+},
+"annotation":{
+"biocyc":"META:GLYCEROL-3P",
+"chebi":"CHEBI:57597",
+"kegg.compound":"C00093",
+"pubchem.compound":"439162",
+"sbo":"SBO:0000247",
+"seed.compound":"cpd00080",
+"ymdb":"YMDB00073"
+}
+},
+{
+"id":"od2912coa_x",
+"name":"trans-2,cis-9,cis-12-octadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H60N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hod912coa_x",
+"name":"(R)-3-hydroxy-cis-9,cis-12-octadecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H62N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3ood912coa_x",
+"name":"3-oxo-cis-9,cis-12-octadecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H60N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"hxd710coa_x",
+"name":"cis-7,cis-10-hexadecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H58N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"hxd2710coa_x",
+"name":"trans-2,cis-7,cis-10-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H56N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hhxd710coa_x",
+"name":"(R)-3-hydroxy-cis-7,cis-10-hexadecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H58N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3ohxd710coa_x",
+"name":"3-oxo-cis-7,cis-10-hexadecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H56N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"td58coa_x",
+"name":"cis-5,cis-8-tetradecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H54N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"td258coa_x",
+"name":"trans-2,cis-5,cis-8-tetradecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H52N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3htd58coa_x",
+"name":"(R)-3-hydroxy-cis-5,cis-8-tetradecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H54N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3otd58coa_x",
+"name":"3-oxo-cis-5,cis-8-tetradecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H52N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dd36coa__Z_x",
+"name":"cis-3,cis-6-dodecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H50N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dd26coa_x",
+"name":"trans-2,cis-6-dodecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H50N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hdd6coa_x",
+"name":"(R)-3-hydroxy-cis-6-tetradecenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H52N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3odd6coa_x",
+"name":"3-oxo-cis-6-tetradecenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H50N7O18P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dca4coa_x",
+"name":"cis-4-decenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H48N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dc24coa_x",
+"name":"trans-2,cis-4-decadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H46N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dc3coa__Z_x",
+"name":"trans-3-decenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H48N7O17P3S1",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"od291215coa_x",
+"name":"trans-2,cis-9,cis-12,cis-15-octadecatetraenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H58N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hod91215coa_x",
+"name":"(R)-3-hydroxy-cis-9,cis-12,cis-15-octadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H60N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3ood91215coa_x",
+"name":"3-oxo-cis-9,cis-12,cis-15-octadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C39H58N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"hxd71013coa_x",
+"name":"cis-7,cis-10,cis-13-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H56N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"hxd271013coa_x",
+"name":"trans-2,cis-7,cis-10,cis-13-hexadecatetraenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H54N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hhxd71013coa_x",
+"name":"3-hydroxy-cis-7,cis-10,cis-13-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H56N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3ohxd71013coa_x",
+"name":"3-oxo-cis-7,cis-10,cis-13-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C37H54N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"td5811coa_x",
+"name":"cis-5,cis-8,cis-11-tetradecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H52N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"td25811coa_x",
+"name":"trans-2,cis-5,cis-8,cis-11-tetradecatetraenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H50N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3htd5811coa_x",
+"name":"3-hydroxy-cis-5,cis-8,cis-11-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H52N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3otd5811coa_x",
+"name":"3-oxo-cis-5,cis-8,cis-11-hexadecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C35H50N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dd369coa__E_x",
+"name":"cis-3,cis-6,cis-9-dodecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H48N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dd269coa_x",
+"name":"trans-2,cis-6,cis-9-dodecatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H48N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hdd69coa_x",
+"name":"3-hydroxy-cis-6,cis-9-dodecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H50N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3odd69coa_x",
+"name":"3-oxo-cis-6,cis-9-dodecadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C33H48N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dca47coa_x",
+"name":"cis-4,cis-7-decadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H46N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dc247coa_x",
+"name":"trans-2,cis-4,cis-7-decatrienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H44N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dc37coa__Z_x",
+"name":"trans-3,cis-7-decadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H46N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"dc27coa_x",
+"name":"trans-2,cis-7-decadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H46N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3hdc7coa_x",
+"name":"3-hydroxy-cis-7-decenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H48N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"3odc7coa_x",
+"name":"3-oxo-cis-7-decenoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C31H46N7O18P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"oc5coa_x",
+"name":"cis-oct-5-enoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C29H44N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"oc25coa__EZ_x",
+"name":"trans-2,cis-5-octadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C29H42N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"oc35coa__EZ_x",
+"name":"trans-3,cis-5-octadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C29H42N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"oc24coa__ZZ_x",
+"name":"trans-2,trans-4-octadienoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C29H42N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
+}
+},
+{
+"id":"oc3coa__Z_x",
+"name":"trans-oct-3-enoyl-CoA",
+"compartment":"x",
+"charge":-4,
+"formula":"C29H44N7O17P3S",
+"notes":{
+"formula_charge_source":"manual"
+},
+"annotation":{
+"sbo":"SBO:0000247"
 }
 }
 ],
@@ -37901,11 +38608,12 @@
 "pep_m":-1,
 "pi_m":1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt2234 or (rt2234 and rt3787)",
 "subsystem":"Phenylalanine, tyrosine and tryptophan metabolism",
 "notes":{
+"notes":"knockout to allow flux only go through the cytosolic copy of DDPA_c",
 "yeastgem76.reaction":"r_0020",
 "yeastkegg_id":"r_0020"
 },
@@ -39210,29 +39918,6 @@
 }
 },
 {
-"id":"ACACT40ir_m",
-"name":"acetyl-CoA C-acetyltransferase",
-"metabolites":{
-"aacoa_m":1,
-"accoa_m":-2.0,
-"coa_m":1
-},
-"lower_bound":0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt0310",
-"subsystem":"Fatty acid degradation",
-"notes":{
-"notes":"KO to prevent cycling since there is another cytosolic copy used for terpenoid backbone biosynthesis",
-"yeastgem76.reaction":"r_0104",
-"yeastkegg_id":"r_0104"
-},
-"annotation":{
-"ec-code":"2.3.1.9",
-"kegg.reaction":"R00238",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"ACACT140i_x",
 "name":"acetyl-CoA C-acyltransferase (lauroyl-CoA)",
 "metabolites":{
@@ -39301,80 +39986,6 @@
 "annotation":{
 "ec-code":"2.3.1.16",
 "kegg.reaction":"R04742",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAHi_m",
-"name":"acetyl-CoA hydrolase",
-"metabolites":{
-"ac_m":1,
-"accoa_m":-1,
-"coa_m":1,
-"h2o_m":-1,
-"h_m":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt5429",
-"subsystem":"Pyruvate metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0111",
-"yeastkegg_id":"r_0111"
-},
-"annotation":{
-"ec-code":"3.1.2.1",
-"kegg.reaction":"R00227",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACS_c",
-"name":"acetyl-CoA synthetase",
-"metabolites":{
-"ac_c":-1,
-"accoa_c":1,
-"amp_c":1,
-"atp_c":-1,
-"coa_c":-1,
-"ppi_c":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt6908 or rt7532",
-"subsystem":"Pyruvate metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0112",
-"yeastkegg_id":"r_0112"
-},
-"annotation":{
-"ec-code":"6.2.1.1",
-"kegg.reaction":"R00235",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACS_m",
-"name":"acetyl-CoA synthetase",
-"metabolites":{
-"ac_m":-1,
-"accoa_m":1,
-"amp_m":1,
-"atp_m":-1,
-"coa_m":-1,
-"ppi_m":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt6908",
-"subsystem":"Pyruvate metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0113",
-"yeastkegg_id":"r_0113"
-},
-"annotation":{
-"ec-code":"6.2.1.1",
-"kegg.reaction":"R00235",
 "sbo":"SBO:0000176"
 }
 },
@@ -39501,8 +40112,8 @@
 "h2o2_x":1,
 "o2_x":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt1332 or rt4374 or rt4384",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -39524,8 +40135,8 @@
 "h2o2_x":1,
 "o2_x":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt1332 or rt4374 or rt4384",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -41221,7 +41832,7 @@
 }
 },
 {
-"id":"ATPASE_c",
+"id":"ATPASEP2e_c",
 "name":"ATPase",
 "metabolites":{
 "adp_c":1,
@@ -41235,12 +41846,14 @@
 "gene_reaction_rule":"rt7216 or rt5249 or rt0602",
 "subsystem":"Oxidative phosphorylation",
 "notes":{
+"notes":"stoichiometry or proton pump efficiency was based on S. cerevisiae PMA1 study",
 "yeastgem76.reaction":"r_0227",
 "yeastkegg_id":"r_0227"
 },
 "annotation":{
 "ec-code":"3.6.3.6",
 "kegg.reaction":"R00086",
+"pmid":"22488179",
 "sbo":"SBO:0000176"
 }
 },
@@ -41626,7 +42239,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5212",
-"subsystem":"Unassigned",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0252",
 "yeastkegg_id":"r_0252"
@@ -41648,7 +42261,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5877",
-"subsystem":"Unassigned",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0253",
 "yeastkegg_id":"r_0253"
@@ -41669,7 +42282,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt0986",
-"subsystem":"Tryptophan metabolism",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0255",
 "yeastkegg_id":"r_0255"
@@ -41691,7 +42304,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt6937",
-"subsystem":"Tryptophan metabolism",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0256",
 "yeastkegg_id":"r_0256"
@@ -42580,11 +43193,12 @@
 "pi_c":1,
 "utp_c":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt8107",
 "subsystem":"Pyrimidine metabolism",
 "notes":{
+"notes":"turn off since CTPS2_c is the biochemically correct reaction",
 "yeastgem76.reaction":"r_0307",
 "yeastkegg_id":"r_0307"
 },
@@ -42940,7 +43554,7 @@
 "h_c":-1,
 "nh4_c":1
 },
-"lower_bound":-1000,
+"lower_bound":0.0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt0757 or rt8268",
 "subsystem":"Pyrimidine metabolism",
@@ -43888,7 +44502,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5740",
-"subsystem":"Methane metabolism",
+"subsystem":"Detoxification",
 "notes":{
 "yeastgem76.reaction":"r_0443",
 "yeastkegg_id":"r_0443"
@@ -43910,7 +44524,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt3584",
-"subsystem":"Glyoxylate and dicarboxylate metabolism",
+"subsystem":"Detoxification",
 "notes":{
 "yeastgem76.reaction":"r_0445",
 "yeastkegg_id":"r_0445"
@@ -44823,7 +45437,7 @@
 }
 },
 {
-"id":"G3PD_m",
+"id":"G3PDf_m",
 "name":"glycerol-3-phosphate dehydrogenase (fad)",
 "metabolites":{
 "dhap_m":1,
@@ -44847,7 +45461,7 @@
 }
 },
 {
-"id":"G3PD1i_c",
+"id":"G3PD1r_c",
 "name":"glycerol-3-phosphate dehydrogenase (NAD)",
 "metabolites":{
 "dhap_c":-1,
@@ -44856,11 +45470,12 @@
 "nad_c":1,
 "nadh_c":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"rt3786 or rt6208",
 "subsystem":"Phospholipid biosynthesis",
 "notes":{
+"notes":"reversible glyc3p dehydrogenase to perform both mitochondrial and peroxisomal NADH shuttle function (PMID:28928432)",
 "yeastgem76.reaction":"r_0491",
 "yeastkegg_id":"r_0491"
 },
@@ -44871,7 +45486,7 @@
 }
 },
 {
-"id":"G3PD1_m",
+"id":"G3PD1i_m",
 "name":"glycerol-3-phosphate dehydrogenase (NAD)",
 "metabolites":{
 "dhap_m":-1,
@@ -44880,11 +45495,12 @@
 "nad_m":1,
 "nadh_m":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt6208",
 "subsystem":"Glycerophospholipid metabolism",
 "notes":{
+"notes":"knockout to prevent thermoinfeasible cycle with G3PD1r_c",
 "yeastgem76.reaction":"r_0492",
 "yeastkegg_id":"r_0492"
 },
@@ -48841,8 +49457,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0844",
 "yeastkegg_id":"r_0844"
@@ -48864,8 +49480,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0845",
 "yeastkegg_id":"r_0845"
@@ -48887,8 +49503,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0847",
 "yeastkegg_id":"r_0847"
@@ -48911,8 +49527,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0848",
 "yeastkegg_id":"r_0848"
@@ -48934,8 +49550,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0849",
 "yeastkegg_id":"r_0849"
@@ -48958,8 +49574,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0850",
 "yeastkegg_id":"r_0850"
@@ -50325,104 +50941,8 @@
 }
 },
 {
-"id":"RNTR1_c",
-"name":"ribonucleoside-triphosphate reductase (ATP)",
-"metabolites":{
-"atp_c":-1,
-"datp_c":1,
-"h2o_c":1,
-"trdox_c":1,
-"trdrd_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
-"subsystem":"Purine metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0970",
-"yeastkegg_id":"r_0970"
-},
-"annotation":{
-"ec-code":"1.17.4.2",
-"kegg.reaction":"R02014",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"RNTR3_c",
-"name":"ribonucleoside-triphosphate reductase (CTP)",
-"metabolites":{
-"ctp_c":-1,
-"dctp_c":1,
-"h2o_c":1,
-"trdox_c":1,
-"trdrd_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
-"subsystem":"Purine metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0971",
-"yeastkegg_id":"r_0971"
-},
-"annotation":{
-"ec-code":"1.17.4.2",
-"kegg.reaction":"R02022",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"RNTR2_c",
-"name":"ribonucleoside-triphosphate reductase (GTP)",
-"metabolites":{
-"dgtp_c":1,
-"gtp_c":-1,
-"h2o_c":1,
-"trdox_c":1,
-"trdrd_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
-"subsystem":"Purine metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0972",
-"yeastkegg_id":"r_0972"
-},
-"annotation":{
-"ec-code":"1.17.4.2",
-"kegg.reaction":"R02020",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"RNTR4_c",
-"name":"ribonucleoside-triphosphate reductase (UTP)",
-"metabolites":{
-"dutp_c":1,
-"h2o_c":1,
-"trdox_c":1,
-"trdrd_c":-1,
-"utp_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
-"subsystem":"Purine metabolism",
-"notes":{
-"yeastgem76.reaction":"r_0973",
-"yeastkegg_id":"r_0973"
-},
-"annotation":{
-"ec-code":"1.17.4.2",
-"kegg.reaction":"R02023",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"RNDR1_c",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (ADP)",
 "metabolites":{
 "adp_c":-1,
 "dadp_c":1,
@@ -50446,7 +50966,7 @@
 },
 {
 "id":"RNDR1_n",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (ADP)",
 "metabolites":{
 "adp_n":-1,
 "dadp_n":1,
@@ -50470,7 +50990,7 @@
 },
 {
 "id":"RNDR3_c",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (CDP)",
 "metabolites":{
 "cdp_c":-1,
 "dcdp_c":1,
@@ -50494,7 +51014,7 @@
 },
 {
 "id":"RNDR3_n",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (CDP)",
 "metabolites":{
 "cdp_n":-1,
 "dcdp_n":1,
@@ -50518,7 +51038,7 @@
 },
 {
 "id":"RNDR2_c",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (GDP)",
 "metabolites":{
 "dgdp_c":1,
 "gdp_c":-1,
@@ -50529,7 +51049,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
-"subsystem":"Purine metabolism",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_0978",
 "yeastkegg_id":"r_0978"
@@ -50542,7 +51062,7 @@
 },
 {
 "id":"RNDR2_n",
-"name":"ribonucleotide reductase",
+"name":"ribonucleotide reductase (GDP)",
 "metabolites":{
 "dgdp_n":1,
 "gdp_n":-1,
@@ -50667,7 +51187,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt1276",
-"subsystem":"Methane metabolism",
+"subsystem":"Detoxification",
 "notes":{
 "yeastgem76.reaction":"r_0987",
 "yeastkegg_id":"r_0987"
@@ -51970,7 +52490,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt4822",
-"subsystem":"Nucleotide metabolism",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_1072",
 "yeastkegg_id":"r_1072"
@@ -52113,7 +52633,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt4822",
-"subsystem":"Nucleotide metabolism",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_1079",
 "yeastkegg_id":"r_1079"
@@ -52136,7 +52656,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt4822",
-"subsystem":"Nucleotide metabolism",
+"subsystem":"Pyrimidine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_1080",
 "yeastkegg_id":"r_1080"
@@ -53089,7 +53609,7 @@
 },
 {
 "id":"FADH2t_c_m",
-"name":"fadH2 transport",
+"name":"FADH2 transport",
 "metabolites":{
 "fadh2_c":1,
 "fadh2_m":-1
@@ -54678,8 +55198,8 @@
 "succ_c":-1,
 "succ_m":1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt4237",
 "subsystem":"Transport",
 "notes":{
@@ -56581,7 +57101,7 @@
 "metabolites":{
 "nh4_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -56807,8 +57327,8 @@
 "h_e":1,
 "hco3_e":1
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"",
 "subsystem":"Nitrogen metabolism",
 "notes":{
@@ -57621,7 +58141,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
-"subsystem":"Nucleotide metabolism",
+"subsystem":"Purine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_1722",
 "yeastkegg_id":"r_1722"
@@ -57668,7 +58188,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
-"subsystem":"Nucleotide metabolism",
+"subsystem":"Purine metabolism",
 "notes":{
 "yeastgem76.reaction":"r_1724",
 "yeastkegg_id":"r_1724"
@@ -59126,14 +59646,14 @@
 }
 },
 {
-"id":"Ht_c",
+"id":"Ht_c_e",
 "name":"H+ diffusion",
 "metabolites":{
 "h_c":1,
 "h_e":-1
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Transport",
 "notes":{
@@ -59243,11 +59763,11 @@
 "id":"Ht_c_v",
 "name":"H+ diffusion",
 "metabolites":{
-"h_c":-1,
-"h_v":1
+"h_c":1,
+"h_v":-1
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Transport",
 "notes":{
@@ -59588,7 +60108,7 @@
 "metabolites":{
 "fe2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -59986,7 +60506,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"",
+"gene_reaction_rule":"rt0963",
 "subsystem":"Transport",
 "notes":{
 "yeastgem76.reaction":"r_1882",
@@ -61411,7 +61931,7 @@
 "metabolites":{
 "pi_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -61835,7 +62355,7 @@
 "metabolites":{
 "na1_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -62024,7 +62544,7 @@
 "metabolites":{
 "so4_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -64162,11 +64682,11 @@
 "amp_en":1,
 "atp_en":-1,
 "coa_en":-1,
-"docosac_en":-1,
+"docosa_en":-1,
 "docoscoa_en":1,
 "ppi_en":1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt7380",
 "subsystem":"Fatty acid degradation",
@@ -64241,11 +64761,11 @@
 "amp_rm":1,
 "atp_rm":-1,
 "coa_rm":-1,
-"docosac_rm":-1,
+"docosa_rm":-1,
 "docoscoa_rm":1,
 "ppi_rm":1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt1544",
 "subsystem":"Fatty acid degradation",
@@ -64320,11 +64840,11 @@
 "amp_l":1,
 "atp_l":-1,
 "coa_l":-1,
-"docosac_l":-1,
+"docosa_l":-1,
 "docoscoa_l":1,
 "ppi_l":1
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt1544",
 "subsystem":"Fatty acid degradation",
@@ -64692,8 +65212,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2232",
 "yeastkegg_id":"r_2232"
@@ -64715,8 +65235,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2233",
 "yeastkegg_id":"r_2233"
@@ -64738,8 +65258,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2234",
 "yeastkegg_id":"r_2234"
@@ -64761,8 +65281,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2235",
 "yeastkegg_id":"r_2235"
@@ -64782,8 +65302,8 @@
 "h2o2_x":1,
 "o2_x":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt1332 or rt4374 or rt4384",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -64805,8 +65325,8 @@
 "hxcoa_x":-1,
 "o2_x":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt1332 or rt4374 or rt4384",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -64828,8 +65348,8 @@
 "oc2coa_x":1,
 "occoa_x":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt1332 or rt4374 or rt4384",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -66151,7 +66671,7 @@
 }
 },
 {
-"id":"ECOAI100a_x",
+"id":"ECOAI101a_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (cis-dec-3-enoyl-CoA)",
 "metabolites":{
 "dc2coa_x":1,
@@ -66160,7 +66680,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2295",
@@ -66172,7 +66692,7 @@
 }
 },
 {
-"id":"ECOAI120c_x",
+"id":"ECOAI122c_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-dodecadienoyl-CoA)",
 "metabolites":{
 "dd25coa_x":-1,
@@ -66180,7 +66700,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2296",
@@ -66192,7 +66712,7 @@
 }
 },
 {
-"id":"ECOAI120b_x",
+"id":"ECOAI121b_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (trans-dodec-3-enoyl-CoA)",
 "metabolites":{
 "dd2coa_x":1,
@@ -66200,7 +66720,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2297",
@@ -66212,7 +66732,7 @@
 }
 },
 {
-"id":"ECOAI120a_x",
+"id":"ECOAI121a_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (cis-dodec-3-enoyl-CoA)",
 "metabolites":{
 "dd2coa_x":1,
@@ -66221,7 +66741,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2298",
@@ -66233,7 +66753,7 @@
 }
 },
 {
-"id":"ECOAI140c_x",
+"id":"ECOAI142c_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-tetradecadienoyl-CoA)",
 "metabolites":{
 "td25coa_x":-1,
@@ -66241,7 +66761,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2299",
@@ -66253,7 +66773,7 @@
 }
 },
 {
-"id":"ECOAI140a_x",
+"id":"ECOAI141a_x",
 "name":"delta3,delta2-enoyl-CoA isomerase (trans-tetradec-3-enoyl-CoA)",
 "metabolites":{
 "td2coa_x":1,
@@ -66261,7 +66781,7 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt1925 or rt3539",
+"gene_reaction_rule":"rt1925",
 "subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_2300",
@@ -68787,7 +69307,7 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5877 or rt0947",
-"subsystem":"Unassigned",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "yeastgem76.reaction":"r_0254",
 "yeastkegg_id":"r_0254"
@@ -68803,7 +69323,7 @@
 "metabolites":{
 "h_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -68821,7 +69341,7 @@
 "metabolites":{
 "k_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -69187,28 +69707,6 @@
 }
 },
 {
-"id":"GLYAT_c_m",
-"name":"Acetyl-CoA:glycine C-acetyltransferase",
-"metabolites":{
-"2aobut_c":-1.0,
-"accoa_m":1.0,
-"coa_c":-1.0,
-"gly_m":1.0
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt1070 or rt4840 or rt5553",
-"subsystem":"Glycine, serine and threonine metabolism",
-"notes":{
-"yeastkegg_id":"R00371_c03"
-},
-"annotation":{
-"ec-code":"2.3.1.29",
-"kegg.reaction":"R00371",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"4HPEOR_c",
 "name":"4-Hydroxyphenylethanol:NAD+ oxidoreductase",
 "metabolites":{
@@ -69313,7 +69811,7 @@
 },
 "lower_bound":-1000,
 "upper_bound":1000,
-"gene_reaction_rule":"rt3614 or rt1896",
+"gene_reaction_rule":"rt6998",
 "subsystem":"Folate metabolism",
 "notes":{
 "yeastgem76.reaction":"r_0732",
@@ -69794,7 +70292,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "kbrxn_id":"R-r1035_m0",
 "kbrxn_idx":"4"
@@ -69893,27 +70391,6 @@
 "kegg.reaction":"R04726",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn05345"
-}
-},
-{
-"id":"CRNAT140_m",
-"name":"carnitine acyltransferase (C14:0)",
-"metabolites":{
-"coa_m":-1,
-"crn140_m":-1,
-"crn_m":1,
-"tdcoa_m":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"notes":{
-"kbrxn_id":"R-r1036_m0",
-"kbrxn_idx":"35"
-},
-"annotation":{
-"sbo":"SBO:0000176"
 }
 },
 {
@@ -70389,27 +70866,6 @@
 }
 },
 {
-"id":"CRNAT180_m",
-"name":"carnitine acyltransferase (C18:0)",
-"metabolites":{
-"coa_m":-1,
-"crn180_m":-1,
-"crn_m":1,
-"stcoa_m":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"notes":{
-"kbrxn_id":"R-r1040_m0",
-"kbrxn_idx":"193"
-},
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"ARAI2_c",
 "name":"L-arabinose isomerase (D-arabinose forming)",
 "metabolites":{
@@ -70613,29 +71069,6 @@
 "kegg.reaction":"R04962",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn05356"
-}
-},
-{
-"id":"XU5PFGT_c",
-"name":"D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase",
-"metabolites":{
-"dha_c":-1,
-"fald_c":1,
-"g3p_c":-1,
-"xu5p__D_c":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt7263",
-"subsystem":"Methane metabolism",
-"notes":{
-"kbrxn_id":"rxn01048_c0",
-"kbrxn_idx":"285"
-},
-"annotation":{
-"kegg.reaction":"R01440",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01048"
 }
 },
 {
@@ -70978,29 +71411,6 @@
 }
 },
 {
-"id":"CRNAT160_m",
-"name":"carnitine acyltransferase (C16:0)",
-"metabolites":{
-"coa_m":-1,
-"crn160_m":-1,
-"crn_m":1,
-"pmtcoa_m":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Fatty acid degradation",
-"notes":{
-"kbrxn_id":"rxn01409_m0",
-"kbrxn_idx":"351"
-},
-"annotation":{
-"kegg.reaction":"R01923",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01409"
-}
-},
-{
 "id":"3OAR140_c",
 "name":"3-oxoacyl-ACP reductase (n-C14:0)",
 "metabolites":{
@@ -71134,7 +71544,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt1850 and rt1701 and rt1518",
-"subsystem":"Unassigned",
+"subsystem":"Oxidative phosphorylation",
 "notes":{
 "kbrxn_id":"rxn12212_m0",
 "kbrxn_idx":"399"
@@ -71304,30 +71714,6 @@
 "kegg.reaction":"R00315",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00225"
-}
-},
-{
-"id":"LDH_L_c",
-"name":"(S)-Lactate:NAD+ oxidoreductase",
-"metabolites":{
-"h_c":1,
-"lac__L_c":-1,
-"nad_c":-1,
-"nadh_c":1,
-"pyr_c":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt5258",
-"subsystem":"Pyruvate metabolism",
-"notes":{
-"kbrxn_id":"rxn00499_c0",
-"kbrxn_idx":"460"
-},
-"annotation":{
-"kegg.reaction":"R00703",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00499"
 }
 },
 {
@@ -72246,21 +72632,24 @@
 "id":"PKETF_c",
 "name":"phosphoketolase (fructose 6-phosphate)",
 "metabolites":{
-"actp_c":-1,
-"e4p_c":-1,
-"f6p_c":1,
-"h2o_c":-1,
-"pi_c":1
+"actp_c":1,
+"e4p_c":1,
+"f6p_c":-1,
+"h2o_c":1,
+"pi_c":-1
 },
 "lower_bound":0.0,
-"upper_bound":1000,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt5014",
-"subsystem":"Pentose phosphate pathway",
+"subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
 "kbrxn_id":"R-r0040_c0",
-"kbrxn_idx":"1021"
+"kbrxn_idx":"1021",
+"notes":"reaction is in f6p_cleaving direction (PMID:26360872). Being turned off due to 13C_MFA analysis only show xu5p cleaving activity (PMID:22367611)."
 },
 "annotation":{
+"ec-code":"4.1.2.22",
+"kegg.reaction":"R00761",
 "sbo":"SBO:0000176"
 }
 },
@@ -74861,7 +75250,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5702",
-"subsystem":"Valine, leucine and isoleucine metabolism",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "manually_curated":"yes"
 },
@@ -74884,7 +75273,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt5702",
-"subsystem":"Valine, leucine and isoleucine metabolism",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "manually_curated":"yes"
 },
@@ -74930,7 +75319,7 @@
 "lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"rt1644",
-"subsystem":"Valine, leucine and isoleucine metabolism",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "manually_curated":"yes"
 },
@@ -75508,10 +75897,10 @@
 "succ_m":1,
 "tmlys_m":-1
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"rt0812",
-"subsystem":"Lysine metabolism",
+"subsystem":"Carnitine biosynthesis",
 "notes":{
 "manually_curated":"yes"
 },
@@ -75674,25 +76063,6 @@
 }
 },
 {
-"id":"FACOAE100_c",
-"name":"acyl-CoA thioesterase (n-C10:0)",
-"metabolites":{
-"coa_c":1,
-"dca_c":1,
-"dcacoa_c":-1,
-"h2o_c":-1,
-"h_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid biosynthesis",
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"FACOAE120_c",
 "name":"acyl-CoA thioesterase (n-C12:0)",
 "metabolites":{
@@ -75704,7 +76074,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
+"gene_reaction_rule":"rt4680",
 "subsystem":"Fatty acid biosynthesis",
 "annotation":{
 "ec-code":"3.1.2.2",
@@ -75742,7 +76112,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
+"gene_reaction_rule":"rt4680",
 "subsystem":"Fatty acid biosynthesis",
 "annotation":{
 "ec-code":"3.1.2.2",
@@ -75758,63 +76128,6 @@
 "h_c":1,
 "ocdca_c":1,
 "stcoa_c":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid biosynthesis",
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE80_c",
-"name":"acyl-CoA thioesterase (n-C8:0)",
-"metabolites":{
-"coa_c":1,
-"h2o_c":-1,
-"h_c":1,
-"occoa_c":-1,
-"octa_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid biosynthesis",
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE40_c",
-"name":"acyl-CoA thioesterase (n-4:0)",
-"metabolites":{
-"btcoa_c":-1,
-"but_c":1,
-"coa_c":1,
-"h2o_c":-1,
-"h_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid biosynthesis",
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE60_c",
-"name":"acyl-CoA thioesterase (n-6:0)",
-"metabolites":{
-"coa_c":1,
-"h2o_c":-1,
-"h_c":1,
-"hxa_c":1,
-"hxcoa_c":-1
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -75892,12 +76205,12 @@
 "amp_x":1,
 "atp_x":-1,
 "coa_x":-1,
-"docosac_x":-1,
+"docosa_x":-1,
 "docoscoa_x":1,
 "ppi_x":1
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":1000,
 "gene_reaction_rule":"rt7761",
 "subsystem":"Fatty acid degradation",
 "notes":{
@@ -77615,25 +77928,27 @@
 "id":"ATPS_m",
 "name":"ATP synthase",
 "metabolites":{
-"adp_m":-1,
-"atp_m":1,
-"h2o_m":1,
-"h_c":-4.0,
-"h_m":3.0,
-"pi_m":-1
+"adp_m":-3.0,
+"atp_m":3.0,
+"h2o_m":3.0,
+"h_c":-10.0,
+"h_m":7.0,
+"pi_m":-3.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000,
+"lower_bound":0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"rt7991 and rt7221 and rt3590 and rt6418 and rt5056 and rtm133 and rt6544 and rtm270 and rtm356 and rt2306 and rt5474 and rt3599 and rt5391 and ((rt7512 and rt7221) or rt0712 or (rt7512 and rt1572 and rt2434))",
 "subsystem":"Oxidative phosphorylation",
 "notes":{
 "manually_curated":"yes",
+"notes":"ATP synthase stoichiometry is fixed to S. cerevisiae complex structure including 10 c ring for proton and 3 alpha beta subunits for ATP",
 "yeastgem76.reaction":"r_0226",
 "yeastkegg_id":"r_0226"
 },
 "annotation":{
 "ec-code":"3.6.3.14",
 "kegg.reaction":"R00086",
+"pmid":"20858734",
 "sbo":"SBO:0000176"
 }
 },
@@ -78203,32 +78518,6 @@
 "annotation":{
 "ec-code":"1.5.1.5",
 "kegg.reaction":"R00943",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"MDH_x",
-"name":"malate dehydrogenase",
-"metabolites":{
-"h_x":1,
-"mal__L_x":-1,
-"nad_x":-1,
-"nadh_x":1,
-"oaa_x":1
-},
-"lower_bound":-1000,
-"upper_bound":1000,
-"gene_reaction_rule":"rt2810 or rt2246",
-"subsystem":"Citric acid cycle",
-"notes":{
-"manually_curated":"yes",
-"notes":"gapfill reaction, gpr consists of cytosolic and mitochondrial MDH",
-"yeastgem76.reaction":"r_0715",
-"yeastkegg_id":"r_0715"
-},
-"annotation":{
-"ec-code":"1.1.1.37",
-"kegg.reaction":"R00342",
 "sbo":"SBO:0000176"
 }
 },
@@ -78803,7 +79092,7 @@
 "metabolites":{
 "ca2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78817,7 +79106,7 @@
 "metabolites":{
 "cl_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78845,7 +79134,7 @@
 "metabolites":{
 "cu2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78859,7 +79148,7 @@
 "metabolites":{
 "mg2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78873,7 +79162,7 @@
 "metabolites":{
 "mn2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78901,7 +79190,7 @@
 "metabolites":{
 "ni2_e":-1
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -78915,7 +79204,7 @@
 "metabolites":{
 "zn2_e":-1
 },
-"lower_bound":-1000,
+"lower_bound":-1000.0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"Exchange",
@@ -79881,7 +80170,7 @@
 "pe_rm":-1,
 "tag_rm":1
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"rt8109",
 "subsystem":"Glycerophospholipid metabolism",
@@ -79899,7 +80188,7 @@
 "pc_rm":-1,
 "tag_rm":1
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"rt8109",
 "subsystem":"Glycerophospholipid metabolism",
@@ -82455,8 +82744,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "manually_curated":"yes"
 },
@@ -82482,7 +82771,8 @@
 "gene_reaction_rule":"rt0477",
 "subsystem":"Biosynthesis of unsaturated fatty acids",
 "notes":{
-"manually_curated":"yes"
+"manually_curated":"yes",
+"notes":"delta12,15 desaturase activity since BLAST hit to AXY92191.1"
 },
 "annotation":{
 "ec-code":"1.14.19.6",
@@ -82634,8 +82924,8 @@
 },
 "lower_bound":0,
 "upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
+"gene_reaction_rule":"rt7680",
+"subsystem":"Fatty acid degradation",
 "notes":{
 "manually_curated":"yes"
 },
@@ -82660,94 +82950,6 @@
 },
 "annotation":{
 "sbo":"SBO:0000185"
-}
-},
-{
-"id":"FACOAE220_c",
-"name":"acyl-CoA thioesterase (n-22:0)",
-"metabolites":{
-"coa_c":1,
-"docosa_c":1,
-"docoscoa_c":-1,
-"h2o_c":-1,
-"h_c":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid elongation",
-"notes":{
-"manually_curated":"yes"
-},
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE220_x",
-"name":"acyl-CoA thioesterase (n-22:0)",
-"metabolites":{
-"coa_x":1,
-"docosa_x":1,
-"docoscoa_x":-1,
-"h2o_x":-1,
-"h_x":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
-"notes":{
-"manually_curated":"yes"
-},
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE240_c",
-"name":"acyl-CoA thioesterase (n-24:0)",
-"metabolites":{
-"coa_c":1,
-"h2o_c":-1,
-"h_c":1,
-"ttccoa_c":-1,
-"ttcosa_c":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt4680 or rt0088",
-"subsystem":"Fatty acid elongation",
-"notes":{
-"manually_curated":"yes"
-},
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"FACOAE240_x",
-"name":"acyl-CoA thioesterase (n-24:0)",
-"metabolites":{
-"coa_x":1,
-"h2o_x":-1,
-"h_x":1,
-"ttccoa_x":-1,
-"ttcosa_x":1
-},
-"lower_bound":0,
-"upper_bound":1000,
-"gene_reaction_rule":"rt7680 or rt5558",
-"subsystem":"Fatty acid biosynthesis",
-"notes":{
-"manually_curated":"yes"
-},
-"annotation":{
-"ec-code":"3.1.2.2",
-"sbo":"SBO:0000176"
 }
 },
 {
@@ -83013,19 +83215,19 @@
 }
 },
 {
-"id":"Biomass_Rt_Clim",
+"id":"BIOMASS_RT_CLIM",
 "name":"Biomass_Rt_Clim",
 "metabolites":{
 "13BDglucan_c":-1.001123,
 "16BDglucan_en":-0.263454,
 "G00006_c":-0.015503,
-"adp_c":144.9394,
+"adp_c":166.714909,
 "alatrna_c":-0.386254,
 "amet_c":-0.0001,
 "argtrna_c":-0.152604,
 "asntrna_c":-0.183441,
 "asptrna_c":-0.183441,
-"atp_c":-144.979806,
+"atp_c":-166.755315,
 "btn_c":-0.0001,
 "ca2_c":-0.001286,
 "chtn_c":-0.023669,
@@ -83046,8 +83248,8 @@
 "glytrna_c":-0.351464,
 "gpianchorSC_r":-0.016989,
 "gtp_c":-0.0618,
-"h2o_c":-144.9394,
-"h_c":144.9394,
+"h2o_c":-166.714909,
+"h_c":166.714909,
 "hdca_c":-0.000478,
 "hemeA_c":-0.0001,
 "histrna_c":-0.076302,
@@ -83070,7 +83272,7 @@
 "pc_c":-0.041166,
 "pe_c":-0.009943,
 "phetrna_c":-0.148651,
-"pi_c":144.833745,
+"pi_c":166.609254,
 "ppi_c":0.246044,
 "protrna_c":-0.166837,
 "ps_c":-0.005332,
@@ -83110,7 +83312,7 @@
 "valtrna_c":-0.28979,
 "zn2_c":-0.001576
 },
-"lower_bound":0.0,
+"lower_bound":0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "objective_coefficient":1.0,
@@ -83256,7 +83458,7 @@
 "h_c":1,
 "pi_c":1
 },
-"lower_bound":1.0124,
+"lower_bound":1.189,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Unassigned",
@@ -83746,28 +83948,6 @@
 }
 },
 {
-"id":"FAOX182lump_x",
-"name":"fatty acyl-CoA oxidation (C18:2) lumped",
-"metabolites":{
-"accoa_x":9.0,
-"coa_x":-8.0,
-"h2o2_x":6.0,
-"h2o_x":-8.0,
-"h_x":8.0,
-"linocoa_x":-1,
-"nad_x":-8.0,
-"nadh_x":8.0,
-"o2_x":-6.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"(rt1332 or rt4374 or rt4384) and (rt2994 or rt8147) and (rt2994 or rt7916) and (rt5445 or rt6860 or rt0697)",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
 "id":"FACOA183tabc_x",
 "name":"fatty acyl-CoA transport via ABC system (C18:3)",
 "metabolites":{
@@ -83785,28 +83965,6 @@
 "subsystem":"Transport",
 "annotation":{
 "sbo":"SBO:0000185"
-}
-},
-{
-"id":"FAOX183lump_x",
-"name":"fatty acyl-CoA oxidation (C18:3) lumped",
-"metabolites":{
-"accoa_x":9.0,
-"coa_x":-8.0,
-"h2o2_x":5.0,
-"h2o_x":-8.0,
-"h_x":8.0,
-"linolncoa_x":-1,
-"nad_x":-8.0,
-"nadh_x":8.0,
-"o2_x":-5.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"(rt1332 or rt4374 or rt4384) and (rt2994 or rt8147) and (rt2994 or rt7916) and (rt5445 or rt6860 or rt0697)",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"sbo":"SBO:0000176"
 }
 },
 {
@@ -83839,296 +83997,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO100_m",
-"name":"acyl-CoA oxidase (decanoyl-CoA)",
-"metabolites":{
-"dc2coa_m":1,
-"dcacoa_m":-1,
-"h2o2_m":1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO120_m",
-"name":"acyl-CoA oxidase (dodecanoyl-CoA)",
-"metabolites":{
-"dd2coa_m":1,
-"ddcacoa_m":-1,
-"h2o2_m":1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO160_m",
-"name":"acyl-CoA oxidase (hexadecanoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"hdd2coa_m":1,
-"o2_m":-1,
-"pmtcoa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO180_m",
-"name":"acyl-CoA oxidase (octadecanoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"o2_m":-1,
-"od2coa_m":1,
-"stcoa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO140_m",
-"name":"acyl-CoA oxidase (tetradecanoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"o2_m":-1,
-"td2coa_m":1,
-"tdcoa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO40_m",
-"name":"acyl-CoA oxidase (butanoyl-CoA)",
-"metabolites":{
-"bt2coa_m":1,
-"btcoa_m":-1,
-"h2o2_m":1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO60_m",
-"name":"acyl-CoA oxidase (hexanoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"hx2coa_m":1,
-"hxcoa_m":-1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO80_m",
-"name":"acyl-CoA oxidase (octanoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"o2_m":-1,
-"oc2coa_m":1,
-"occoa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO161b_m",
-"name":"acyl-CoA oxidase (palmitoleoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"h_m":2.0,
-"hdcoa_m":-1,
-"hxd29coa_m":1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO141b_m",
-"name":"acyl-CoA oxidase (cis-tetradec-7-enoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"o2_m":-1,
-"td27coa_m":1,
-"td7coa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO121a_m",
-"name":"acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)",
-"metabolites":{
-"dd25coa_m":1,
-"dd5coa_m":-1,
-"h2o2_m":1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO181a_m",
-"name":"acyl-CoA oxidase (oleoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"h_m":2.0,
-"o2_m":-1,
-"od29coa_m":1,
-"odecoa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO161a_m",
-"name":"acyl-CoA oxidase (cis-hexadec-7-enoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"h_m":1,
-"hxd27coa_m":1,
-"hxd7coa_m":-1,
-"o2_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ACOAO141a_m",
-"name":"acyl-CoA oxidase (cis-tetradec-5-enoyl-CoA)",
-"metabolites":{
-"h2o2_m":1,
-"o2_m":-1,
-"td25coa_m":1,
-"td5coa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"UNKNOWN",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"1.3.3.6",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRNAT161_m",
-"name":"carnitine acyltransferase (C16:1)",
-"metabolites":{
-"coa_m":-1,
-"crn161_m":-1,
-"crn_m":1,
-"hdcoa_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRNAT181_m",
-"name":"carnitine acyltransferase (C16:1)",
-"metabolites":{
-"coa_m":-1,
-"crn181_m":-1,
-"crn_m":1,
-"odecoa_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Fatty acid degradation",
+"subsystem":"Transport",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84144,180 +84013,22 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRNAT140_x",
-"name":"carnitine acyltransferase (C14:0)",
-"metabolites":{
-"coa_x":-1,
-"crn140_x":-1,
-"crn_x":1,
-"tdcoa_x":1
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRNAT160_x",
-"name":"carnitine acyltransferase (C16:0)",
-"metabolites":{
-"coa_x":-1,
-"crn160_x":-1,
-"crn_x":1,
-"pmtcoa_x":1
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
+"gene_reaction_rule":"rt5212 or rt5877",
 "subsystem":"Fatty acid degradation",
-"annotation":{
-"kegg.reaction":"R01923",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn01409"
-}
+"notes":{
+"kbrxn_id":"R-r1035_m0",
+"kbrxn_idx":"4"
 },
-{
-"id":"CRNAT180_x",
-"name":"carnitine acyltransferase (C18:0)",
-"metabolites":{
-"coa_x":-1,
-"crn180_x":-1,
-"crn_x":1,
-"stcoa_x":1
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
 "annotation":{
 "sbo":"SBO:0000176"
 }
 },
 {
-"id":"CRNAT161_x",
-"name":"carnitine acyltransferase (C16:1)",
-"metabolites":{
-"coa_x":-1,
-"crn161_x":-1,
-"crn_x":1,
-"hdcoa_x":1
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRNAT181_x",
-"name":"carnitine acyltransferase (C16:1)",
-"metabolites":{
-"coa_x":-1,
-"crn181_x":-1,
-"crn_x":1,
-"odecoa_x":1
-},
-"lower_bound":-1000.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"CRN120t_m_x",
+"id":"CRN120t_c_x",
 "name":"carnitine C12:0 transport",
 "metabolites":{
-"crn120_m":1,
+"crn120_c":1,
 "crn120_x":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Transport",
-"annotation":{
-"sbo":"SBO:0000185"
-}
-},
-{
-"id":"CRN140t_m_x",
-"name":"carnitine C14:0 transport",
-"metabolites":{
-"crn140_m":1,
-"crn140_x":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Transport",
-"annotation":{
-"sbo":"SBO:0000185"
-}
-},
-{
-"id":"CRN160t_m_x",
-"name":"carnitine C16:0 transport",
-"metabolites":{
-"crn160_m":1,
-"crn160_x":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Transport",
-"annotation":{
-"sbo":"SBO:0000185"
-}
-},
-{
-"id":"CRN180t_m_x",
-"name":"carnitine C18:0 transport",
-"metabolites":{
-"crn180_m":1,
-"crn180_x":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Transport",
-"annotation":{
-"sbo":"SBO:0000185"
-}
-},
-{
-"id":"CRN161t_m_x",
-"name":"carnitine C16:1 transport",
-"metabolites":{
-"crn161_m":1,
-"crn161_x":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt7415",
-"subsystem":"Transport",
-"annotation":{
-"sbo":"SBO:0000185"
-}
-},
-{
-"id":"CRN181t_m_x",
-"name":"carnitine C18:1 transport",
-"metabolites":{
-"crn181_m":1,
-"crn181_x":-1
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -84339,8 +84050,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84357,8 +84068,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84375,8 +84086,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84393,8 +84104,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84411,8 +84122,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84429,8 +84140,8 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
 "annotation":{
 "sbo":"SBO:0000176"
 }
@@ -84442,112 +84153,14 @@
 "fad_x":-1,
 "fadh2_x":1,
 "h_x":-1,
-"hxd2coa_x":1,
+"hdd2coa_x":1,
 "pmtcoa_x":-1
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt2040 or rt0595",
-"subsystem":"Unassigned",
-"annotation":{
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI100a_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (cis-dec-3-enoyl-CoA)",
-"metabolites":{
-"dc2coa_m":1,
-"dc3coa_m":-1,
-"h_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
 "subsystem":"Fatty acid degradation",
 "annotation":{
-"ec-code":"5.3.3.8",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI120c_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-dodecadienoyl-CoA)",
-"metabolites":{
-"dd25coa_m":-1,
-"dd35coa_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"5.3.3.8",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI120b_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (trans-dodec-3-enoyl-CoA)",
-"metabolites":{
-"dd2coa_m":1,
-"dd3coa__E_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"5.3.3.8",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI120a_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (cis-dodec-3-enoyl-CoA)",
-"metabolites":{
-"dd2coa_m":1,
-"dd3coa__Z_m":-1,
-"h_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"5.3.3.8",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI140c_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-tetradecadienoyl-CoA)",
-"metabolites":{
-"td25coa_m":-1,
-"td35coa_m":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"5.3.3.8",
-"sbo":"SBO:0000176"
-}
-},
-{
-"id":"ECOAI140a_m",
-"name":"delta3,delta2-enoyl-CoA isomerase (trans-tetradec-3-enoyl-CoA)",
-"metabolites":{
-"td2coa_m":1,
-"td3coa_m":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt1925 or rt3539",
-"subsystem":"Fatty acid degradation",
-"annotation":{
-"ec-code":"5.3.3.8",
 "sbo":"SBO:0000176"
 }
 },
@@ -84652,6 +84265,1958 @@
 "subsystem":"Pseudoreaction",
 "annotation":{
 "sbo":"SBO:0000628"
+}
+},
+{
+"id":"ACOAD100f_m",
+"name":"acyl-CoA dehydrogenase (n-C10:0)",
+"metabolites":{
+"dc2coa_m":1,
+"dcacoa_m":-1,
+"fad_m":-1,
+"fadh2_m":1,
+"h_m":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt4202",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.7",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD120f_m",
+"name":"acyl-CoA dehydrogenase (n-C12:0)",
+"metabolites":{
+"dd2coa_m":1,
+"ddcacoa_m":-1,
+"fad_m":-1,
+"fadh2_m":1,
+"h_m":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt4202",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.7",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FADt_c_m",
+"name":"FAD transport",
+"metabolites":{
+"fad_c":-1,
+"fad_m":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5791",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"ACOAD180f_x",
+"name":"acyl-CoA dehydrogenase (n-C18:0)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"od2coa_x":1,
+"stcoa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD161bf_x",
+"name":"acyl-CoA dehydrogenase (n-C16:1)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":1,
+"hdcoa_x":-1,
+"hxd29coa_x":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD141bf_x",
+"name":"acyl-CoA dehydrogenase (n-C14:1, e7)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"td27coa_x":1,
+"td7coa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD121af_x",
+"name":"acyl-CoA dehydrogenase (n-C12:1, e5)",
+"metabolites":{
+"dd25coa_x":1,
+"dd5coa_x":-1,
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD181af_x",
+"name":"acyl-CoA dehydrogenase (n-C18:1)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":1,
+"od29coa_x":1,
+"odecoa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD161af_x",
+"name":"acyl-CoA dehydrogenase (n-C16:1, e7)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"hxd27coa_x":1,
+"hxd7coa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD141af_x",
+"name":"acyl-CoA dehydrogenase (n-C14:1, e5)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"td25coa_x":1,
+"td5coa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HLYSMT_m",
+"name":"Histone-lysine N-methyltransferase",
+"metabolites":{
+"ahcys_m":3.0,
+"amet_m":-3.0,
+"h_m":1,
+"lys__L_m":-1,
+"tmlys_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt1397 or rt1965 or rt2181 or rt2220 or rt4178 or rt6162 or rt6500",
+"subsystem":"Carnitine biosynthesis",
+"annotation":{
+"ec-code":"2.1.1.43",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"GHMT3_m",
+"name":"Glycine hydroxymethyltransferase (trimethyllysine)",
+"metabolites":{
+"3htmelys_m":-1,
+"4tmeabut_m":1,
+"gly_m":1,
+"h_m":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"UNKNOWN",
+"subsystem":"Carnitine biosynthesis",
+"annotation":{
+"ec-code":"4.1.2.-",
+"kegg.reaction":"R03284",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"TMABADH_m",
+"name":"4-Trimethylaminobutyraldehyde dehydrogenase",
+"metabolites":{
+"4tmeabut_m":-1,
+"4tmeabutn_m":1,
+"h2o_m":-1,
+"h_m":2.0,
+"nad_m":-1,
+"nadh_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7955",
+"subsystem":"Carnitine biosynthesis",
+"annotation":{
+"ec-code":"1.2.1.3",
+"kegg.reaction":"R03283",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"BBOX_m",
+"name":"gamma-butyrobetaine:2-oxoglutarate dioxygenase",
+"metabolites":{
+"4tmeabutn_m":-1,
+"akg_m":-1,
+"co2_m":1,
+"crn_m":1,
+"o2_m":-1,
+"succ_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt6692",
+"subsystem":"Carnitine biosynthesis",
+"annotation":{
+"ec-code":"1.14.11.1",
+"kegg.reaction":"R02397",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT40_m",
+"name":"carnitine acyltransferase (C4:0)",
+"metabolites":{
+"btcoa_m":1,
+"coa_m":-1,
+"crn40_m":-1,
+"crn_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT60_m",
+"name":"carnitine acyltransferase (C6:0)",
+"metabolites":{
+"coa_m":-1,
+"crn60_m":-1,
+"crn_m":1,
+"hxcoa_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT80_m",
+"name":"carnitine acyltransferase (C8:0)",
+"metabolites":{
+"coa_m":-1,
+"crn80_m":-1,
+"crn_m":1,
+"occoa_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT100_m",
+"name":"carnitine acyltransferase (C10:0)",
+"metabolites":{
+"coa_m":-1,
+"crn100_m":-1,
+"crn_m":1,
+"dcacoa_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRN40t_c_x",
+"name":"carnitine C4:0 transport",
+"metabolites":{
+"crn40_c":1,
+"crn40_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN60t_c_x",
+"name":"carnitine C6:0 transport",
+"metabolites":{
+"crn60_c":1,
+"crn60_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN80t_c_x",
+"name":"carnitine C8:0 transport",
+"metabolites":{
+"crn80_c":1,
+"crn80_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN100t_c_x",
+"name":"carnitine C10:0 transport",
+"metabolites":{
+"crn100_c":1,
+"crn100_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7415",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN40t_c_m",
+"name":"carnitine C4:0 transport via mitochondrial carrier protein",
+"metabolites":{
+"crn40_c":-1,
+"crn40_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0963",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN60t_c_m",
+"name":"carnitine C6:0 transport via mitochondrial carrier protein",
+"metabolites":{
+"crn60_c":-1,
+"crn60_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0963",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN80t_c_m",
+"name":"carnitine C8:0 transport via mitochondrial carrier protein",
+"metabolites":{
+"crn80_c":-1,
+"crn80_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0963",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN100t_c_m",
+"name":"carnitine C10:0 transport via mitochondrial carrier protein",
+"metabolites":{
+"crn100_c":-1,
+"crn100_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0963",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRN120t_c_m",
+"name":"carnitine C12:0 transport via mitochondrial carrier protein",
+"metabolites":{
+"crn120_c":-1,
+"crn120_m":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt0963",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"CRNAT40_x",
+"name":"carnitine acyltransferase (C4:0)",
+"metabolites":{
+"btcoa_x":1,
+"coa_x":-1,
+"crn40_x":-1,
+"crn_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt5212 or rt5877",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT60_x",
+"name":"carnitine acyltransferase (C6:0)",
+"metabolites":{
+"coa_x":-1,
+"crn60_x":-1,
+"crn_x":1,
+"hxcoa_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt5212 or rt5877",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT80_x",
+"name":"carnitine acyltransferase (C8:0)",
+"metabolites":{
+"coa_x":-1,
+"crn80_x":-1,
+"crn_x":1,
+"occoa_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt5212 or rt5877",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"CRNAT100_x",
+"name":"carnitine acyltransferase (C10:0)",
+"metabolites":{
+"coa_x":-1,
+"crn100_x":-1,
+"crn_x":1,
+"dcacoa_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt5212 or rt5877",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"NADPHt_c_x",
+"name":"NADPH transport",
+"metabolites":{
+"nadph_c":-1,
+"nadph_x":1
+},
+"lower_bound":-1000,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"NADPt_c_x",
+"name":"NADP(+) transport",
+"metabolites":{
+"nadp_c":-1,
+"nadp_x":1
+},
+"lower_bound":-1000,
+"upper_bound":1000,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"RNDR4_c",
+"name":"ribonucleotide reductase (UDP)",
+"metabolites":{
+"dudp_c":1,
+"h2o_c":1,
+"trdox_c":1,
+"trdrd_c":-1,
+"udp_c":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
+"subsystem":"Pyrimidine metabolism",
+"annotation":{
+"ec-code":"1.17.4.1",
+"kegg.reaction":"R02018",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"RNDR4_n",
+"name":"ribonucleotide reductase (UDP)",
+"metabolites":{
+"dudp_n":1,
+"h2o_n":1,
+"trdox_n":1,
+"trdrd_n":-1,
+"udp_n":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt2922 and (rt5869 or (rt5869 and rt2804)) and rt6971",
+"subsystem":"Pyrimidine metabolism",
+"annotation":{
+"ec-code":"1.17.4.1",
+"kegg.reaction":"R02018",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL80_c",
+"name":"fatty-acid--CoA ligase (octanoate)",
+"metabolites":{
+"amp_c":1,
+"atp_c":-1,
+"coa_c":-1,
+"occoa_c":1,
+"octa_c":-1,
+"ppi_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7532",
+"subsystem":"Fatty acid biosynthesis",
+"annotation":{
+"ec-code":"6.2.1.3",
+"kegg.reaction":"R00390",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL100_c",
+"name":"fatty-acid--CoA ligase (decanoate)",
+"metabolites":{
+"amp_c":1,
+"atp_c":-1,
+"coa_c":-1,
+"dca_c":-1,
+"dcacoa_c":1,
+"ppi_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7532",
+"subsystem":"Fatty acid biosynthesis",
+"annotation":{
+"ec-code":"6.2.1.3",
+"kegg.reaction":"R00390",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL120_c",
+"name":"fatty-acid--CoA ligase (dodecanoate), lipid particle",
+"metabolites":{
+"amp_c":1,
+"atp_c":-1,
+"coa_c":-1,
+"ddca_c":-1,
+"ddcacoa_c":1,
+"ppi_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7532",
+"subsystem":"Fatty acid biosynthesis",
+"annotation":{
+"ec-code":"6.2.1.3",
+"kegg.reaction":"R00390",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL40_c",
+"name":"fatty-acid--CoA ligase (butanoate)",
+"metabolites":{
+"amp_c":1,
+"atp_c":-1,
+"btcoa_c":1,
+"but_c":-1,
+"coa_c":-1,
+"ppi_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7532",
+"subsystem":"Butanoate metabolism",
+"annotation":{
+"ec-code":"6.2.1.2",
+"kegg.reaction":"R01176",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL60_c",
+"name":"fatty-acid--CoA ligase (hexanoate)",
+"metabolites":{
+"amp_c":1,
+"atp_c":-1,
+"coa_c":-1,
+"hxa_c":-1,
+"hxcoa_c":1,
+"ppi_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt7532",
+"subsystem":"Butanoate metabolism",
+"annotation":{
+"ec-code":"6.2.1.2",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"FACOAL40o_x",
+"name":"fatty-acid--CoA ligase (acetoacetate)",
+"metabolites":{
+"aacoa_x":1,
+"acac_x":-1,
+"amp_x":1,
+"atp_x":-1,
+"coa_x":-1,
+"ppi_x":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt6908",
+"subsystem":"Valine, leucine and isoleucine metabolism",
+"annotation":{
+"ec-code":"6.2.1.16",
+"kegg.reaction":"R01357",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"PKETX_c",
+"name":"phosphoketolase (xylulose 5-phosphate)",
+"metabolites":{
+"actp_c":1,
+"g3p_c":1,
+"h2o_c":1,
+"pi_c":-1,
+"xu5p__D_c":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5014",
+"subsystem":"Glycolysis / Gluconeogenesis",
+"notes":{
+"notes":"reaction is in xu5p"
+},
+"annotation":{
+"ec-code":"4.1.2.9",
+"kegg.reaction":"R01621",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACCOATsucac_m",
+"name":"acyl-CoA carboxylate CoA-transferase (succinyl-CoA:acetate)",
+"metabolites":{
+"ac_m":-1,
+"accoa_m":1,
+"succ_m":1,
+"succoa_m":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5429",
+"subsystem":"Acetyl-CoA synthesis",
+"annotation":{
+"ec-code":"2.8.3.18",
+"kegg.reaction":"R10343",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACCOATsucpp_m",
+"name":"acyl-CoA carboxylate CoA-transferase (succinyl-CoA:propionate)",
+"metabolites":{
+"ppa_m":-1,
+"ppcoa_m":1,
+"succ_m":1,
+"succoa_m":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5429",
+"subsystem":"Propanoate metabolism",
+"annotation":{
+"ec-code":"2.8.3.18",
+"kegg.reaction":"R10343",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"PPAt_c_m",
+"name":"propionate transport",
+"metabolites":{
+"ppa_c":-1,
+"ppa_m":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"PPAt_c_e",
+"name":"propionate transport",
+"metabolites":{
+"ppa_c":-1,
+"ppa_e":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"EX_ppa_e",
+"name":"propionate exchange",
+"metabolites":{
+"ppa_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Exchange",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"XU5PFGT_x",
+"name":"D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase",
+"metabolites":{
+"dha_x":-1,
+"fald_x":1,
+"g3p_x":-1,
+"xu5p__D_x":1
+},
+"lower_bound":0.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt7263",
+"subsystem":"Methane metabolism",
+"notes":{
+"kbrxn_id":"rxn01048_c0",
+"kbrxn_idx":"285",
+"notes":"localized to peroxisome predicted by DeepLoc due to PTS signal. However, this is the only transketolase gene in the organism thus the gene encodes transketolase in reductive PPP instead of peroxisomal formaldehyde transketolase."
+},
+"annotation":{
+"kegg.reaction":"R01440",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn01048"
+}
+},
+{
+"id":"EX_fald_e",
+"name":"formaldehyde exchange",
+"metabolites":{
+"fald_e":-1
+},
+"lower_bound":0.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"",
+"subsystem":"Exchange",
+"annotation":{
+"sbo":"SBO:0000627"
+}
+},
+{
+"id":"LDH_L_x",
+"name":"(S)-Lactate:NAD+ oxidoreductase",
+"metabolites":{
+"h_x":1,
+"lac__L_x":-1,
+"nad_x":-1,
+"nadh_x":1,
+"pyr_x":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5258",
+"subsystem":"Glycolysis / Gluconeogenesis",
+"notes":{
+"kbrxn_id":"rxn00499_c0",
+"kbrxn_idx":"460"
+},
+"annotation":{
+"kegg.reaction":"R00703",
+"sbo":"SBO:0000176",
+"seed.reaction":"rxn00499"
+}
+},
+{
+"id":"G3PD1i_x",
+"name":"glycerol-3-phosphate dehydrogenase (NAD)",
+"metabolites":{
+"dhap_x":-1,
+"glyc3p_x":1,
+"h_x":-1,
+"nad_x":1,
+"nadh_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt3786",
+"subsystem":"Glycerophospholipid metabolism",
+"notes":{
+"notes":"PMID:28928432"
+},
+"annotation":{
+"ec-code":"1.1.1.8",
+"kegg.reaction":"R00842",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"DHAPt_c_x",
+"name":"dihydroxyacetone phosphate transport",
+"metabolites":{
+"dhap_c":-1,
+"dhap_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"GLYC3Pt_c_x",
+"name":"glycerol-3-phosphate shuttle",
+"metabolites":{
+"glyc3p_c":-1,
+"glyc3p_x":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"annotation":{
+"sbo":"SBO:0000185"
+}
+},
+{
+"id":"ACOAD182f_x",
+"name":"acyl-CoA dehydrogenase (n-C18:2)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"linocoa_x":-1,
+"od2912coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO182_x",
+"name":"acyl-CoA oxidase (n-C18:2)",
+"metabolites":{
+"h2o2_x":1,
+"linocoa_x":-1,
+"o2_x":-1,
+"od2912coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH182_x",
+"name":"2-enoyl-CoA hydratase (n-C18:2)",
+"metabolites":{
+"3hod912coa_x":1,
+"h2o_x":-1,
+"od2912coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD182i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C18:2)",
+"metabolites":{
+"3hod912coa_x":-1,
+"3ood912coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT182i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C18:2)",
+"metabolites":{
+"3ood912coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"hxd710coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD162f_x",
+"name":"acyl-CoA dehydrogenase (n-C16:2)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"hxd2710coa_x":1,
+"hxd710coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO162_x",
+"name":"acyl-CoA oxidase (n-C16:2)",
+"metabolites":{
+"h2o2_x":1,
+"hxd2710coa_x":1,
+"hxd710coa_x":-1,
+"o2_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH162_x",
+"name":"2-enoyl-CoA hydratase (n-C16:2)",
+"metabolites":{
+"3hhxd710coa_x":1,
+"h2o_x":-1,
+"hxd2710coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD162i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C16:2)",
+"metabolites":{
+"3hhxd710coa_x":-1,
+"3ohxd710coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT162i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C16:2)",
+"metabolites":{
+"3ohxd710coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"td58coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD142f_x",
+"name":"acyl-CoA dehydrogenase (n-C14:2)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"td258coa_x":1,
+"td58coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO142_x",
+"name":"acyl-CoA oxidase (n-C14:2)",
+"metabolites":{
+"h2o2_x":1,
+"o2_x":-1,
+"td258coa_x":1,
+"td58coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH142_x",
+"name":"2-enoyl-CoA hydratase (n-C14:2)",
+"metabolites":{
+"3htd58coa_x":1,
+"h2o_x":-1,
+"td258coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD142i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C14:2)",
+"metabolites":{
+"3htd58coa_x":-1,
+"3otd58coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT142i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C14:2)",
+"metabolites":{
+"3otd58coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"dd36coa__Z_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI122d_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C12:2, cis-6)",
+"metabolites":{
+"dd26coa_x":1,
+"dd36coa__Z_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH121d_x",
+"name":"2-enoyl-CoA hydratase (n-C12:1)",
+"metabolites":{
+"3hdd6coa_x":1,
+"dd26coa_x":-1,
+"h2o_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD121di_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C12:1)",
+"metabolites":{
+"3hdd6coa_x":-1,
+"3odd6coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT121di_x",
+"name":"acetyl-CoA C-acyltransferase (n-C12:1)",
+"metabolites":{
+"3odd6coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"dca4coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD101df_x",
+"name":"acyl-CoA dehydrogenase (n-C10:1)",
+"metabolites":{
+"dc24coa_x":1,
+"dca4coa_x":-1,
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO101d_x",
+"name":"acyl-CoA oxidase (n-C10:1)",
+"metabolites":{
+"dc24coa_x":1,
+"dca4coa_x":-1,
+"h2o2_x":1,
+"o2_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"DECOAR102d_x",
+"name":"2,4-dienoyl-CoA reductase (n-C10:2)",
+"metabolites":{
+"dc24coa_x":-1,
+"dc3coa__Z_x":1,
+"h_x":-1,
+"nadp_x":1,
+"nadph_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt4860",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.1.34",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI101d_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C10:1)",
+"metabolites":{
+"dc2coa_x":1,
+"dc3coa__Z_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD183f_x",
+"name":"acyl-CoA dehydrogenase (n-C18:3)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"linolncoa_x":-1,
+"od291215coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO183_x",
+"name":"acyl-CoA oxidase (n-C18:3)",
+"metabolites":{
+"h2o2_x":1,
+"linolncoa_x":-1,
+"o2_x":-1,
+"od291215coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH183_x",
+"name":"2-enoyl-CoA hydratase (n-C18:3)",
+"metabolites":{
+"3hod91215coa_x":1,
+"h2o_x":-1,
+"od291215coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD183i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C18:3)",
+"metabolites":{
+"3hod91215coa_x":-1,
+"3ood91215coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT183i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C18:3)",
+"metabolites":{
+"3ood91215coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"hxd71013coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD163f_x",
+"name":"acyl-CoA dehydrogenase (n-C16:3)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"hxd271013coa_x":1,
+"hxd71013coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO163_x",
+"name":"acyl-CoA oxidase (n-C16:3)",
+"metabolites":{
+"h2o2_x":1,
+"hxd271013coa_x":1,
+"hxd71013coa_x":-1,
+"o2_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH163_x",
+"name":"2-enoyl-CoA hydratase (n-C16:3)",
+"metabolites":{
+"3hhxd71013coa_x":1,
+"h2o_x":-1,
+"hxd271013coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD163i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C16:3)",
+"metabolites":{
+"3hhxd71013coa_x":-1,
+"3ohxd71013coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT163i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C16:3)",
+"metabolites":{
+"3ohxd71013coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"td5811coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD143f_x",
+"name":"acyl-CoA dehydrogenase (n-C14:3)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"td25811coa_x":1,
+"td5811coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO143_x",
+"name":"acyl-CoA oxidase (n-C14:3)",
+"metabolites":{
+"h2o2_x":1,
+"o2_x":-1,
+"td25811coa_x":1,
+"td5811coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH143_x",
+"name":"2-enoyl-CoA hydratase (n-C14:3)",
+"metabolites":{
+"3htd5811coa_x":1,
+"h2o_x":-1,
+"td25811coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD143i_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C14:3)",
+"metabolites":{
+"3htd5811coa_x":-1,
+"3otd5811coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT143i_x",
+"name":"acetyl-CoA C-acyltransferase (n-C14:3)",
+"metabolites":{
+"3otd5811coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"dd369coa__E_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI123e_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C12:3, cis-6, cis-9)",
+"metabolites":{
+"dd269coa_x":1,
+"dd369coa__E_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH122e_x",
+"name":"2-enoyl-CoA hydratase (n-C12:2)",
+"metabolites":{
+"3hdd69coa_x":1,
+"dd269coa_x":-1,
+"h2o_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD122ei_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C12:2)",
+"metabolites":{
+"3hdd69coa_x":-1,
+"3odd69coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT122ei_x",
+"name":"acetyl-CoA C-acyltransferase (n-C12:2)",
+"metabolites":{
+"3odd69coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"dca47coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD102ef_x",
+"name":"acyl-CoA dehydrogenase (n-C10:2)",
+"metabolites":{
+"dc247coa_x":1,
+"dca47coa_x":-1,
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO102e_x",
+"name":"acyl-CoA oxidase (n-C10:2)",
+"metabolites":{
+"dc247coa_x":1,
+"dca47coa_x":-1,
+"h2o2_x":1,
+"o2_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"DECOAR103e_x",
+"name":"2,4-dienoyl-CoA reductase (n-C10:3, cis-7)",
+"metabolites":{
+"dc247coa_x":-1,
+"dc37coa__Z_x":1,
+"h_x":-1,
+"nadp_x":1,
+"nadph_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt4860",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.1.34",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI102e_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C10:2, cis-7)",
+"metabolites":{
+"dc27coa_x":1,
+"dc37coa__Z_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAH101e_x",
+"name":"2-enoyl-CoA hydratase (n-C10:2)",
+"metabolites":{
+"3hdc7coa_x":1,
+"dc27coa_x":-1,
+"h2o_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt8147",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"4.2.1.119",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"HACD101ei_x",
+"name":"3-hydroxyacyl-CoA dehydrogenase (n-C10:2)",
+"metabolites":{
+"3hdc7coa_x":-1,
+"3odc7coa_x":1,
+"h_x":1,
+"nad_x":-1,
+"nadh_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt2994 or rt7916",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.1.1.n12",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACACT101ei_x",
+"name":"acetyl-CoA C-acyltransferase (n-C10:2)",
+"metabolites":{
+"3odc7coa_x":-1,
+"accoa_x":1,
+"coa_x":-1,
+"oc5coa_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt5445 or rt6860 or rt0697",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"2.3.1.16",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAD82ef_x",
+"name":"acyl-CoA dehydrogenase (n-C8:2)",
+"metabolites":{
+"fad_x":-1,
+"fadh2_x":1,
+"h_x":-1,
+"oc25coa__EZ_x":1,
+"oc5coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt0595 or (rt2040 or (rt2040 and rt6199))",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.8.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ACOAO82e_x",
+"name":"acyl-CoA oxidase (n-C8:2)",
+"metabolites":{
+"h2o2_x":1,
+"o2_x":-1,
+"oc25coa__EZ_x":1,
+"oc5coa_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1332 or rt4374 or rt4384",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.3.6",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI82e_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C8:2, cis-5)",
+"metabolites":{
+"oc25coa__EZ_x":-1,
+"oc35coa__EZ_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"DECOAI82e_x",
+"name":"delta(3,5)-delta(2,4)-dienoyl-CoA isomerase (n-C8:2)",
+"metabolites":{
+"oc24coa__ZZ_x":1,
+"oc35coa__EZ_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt3539",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.21",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"DECOAR82e_x",
+"name":"2,4-dienoyl-CoA reductase (n-C8:2)",
+"metabolites":{
+"h_x":-1,
+"nadp_x":1,
+"nadph_x":-1,
+"oc24coa__ZZ_x":-1,
+"oc3coa__Z_x":1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt4860",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"1.3.1.34",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"ECOAI81e_x",
+"name":"delta3,delta2-enoyl-CoA isomerase (n-C8:1)",
+"metabolites":{
+"oc2coa_x":1,
+"oc3coa__Z_x":-1
+},
+"lower_bound":0,
+"upper_bound":1000,
+"gene_reaction_rule":"rt1925",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"5.3.3.8",
+"sbo":"SBO:0000176"
+}
+},
+{
+"id":"PACCOAE_x",
+"name":"phenylacetyl-CoA thioesterase",
+"metabolites":{
+"coa_x":1,
+"h2o_x":-1,
+"h_x":1,
+"pac_x":1,
+"phaccoa_x":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt5558",
+"subsystem":"Fatty acid degradation",
+"annotation":{
+"ec-code":"3.1.2.-",
+"kegg.reaction":"R09840",
+"sbo":"SBO:0000176"
 }
 }
 ],
@@ -85464,6 +87029,8 @@
 "name":"ACH1",
 "notes":{
 "KOG":"C",
+"ncbi_blast":"confirm",
+"notes":"localize to mitochondria and carry out acyl",
 "protein_id":"RT13797",
 "transcript_id":"13925"
 },
@@ -85474,28 +87041,26 @@
 },
 {
 "id":"rt7532",
-"name":"ACS2",
+"name":"MACS_rt",
 "notes":{
 "KOG":"I",
 "protein_id":"RT15900",
 "transcript_id":"16028"
 },
 "annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YLR153C"
+"sbo":"SBO:0000243"
 }
 },
 {
 "id":"rt6908",
-"name":"ACS1",
+"name":"AACS_rt",
 "notes":{
 "KOG":"I",
 "protein_id":"RT15276",
 "transcript_id":"15404"
 },
 "annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YAL054C"
+"sbo":"SBO:0000243"
 }
 },
 {
@@ -87542,6 +89107,7 @@
 "name":"MIS1",
 "notes":{
 "KOG":"H",
+"notes":"tri",
 "protein_id":"RT15366",
 "transcript_id":"15494"
 },
@@ -90132,45 +91698,6 @@
 "annotation":{
 "sbo":"SBO:0000243",
 "sc_id":"YNR050C"
-}
-},
-{
-"id":"rt4840",
-"name":"NAT2",
-"notes":{
-"KOG":"S",
-"protein_id":"RT13208",
-"transcript_id":"13336"
-},
-"annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YGR147C"
-}
-},
-{
-"id":"rt1070",
-"name":"NAT1",
-"notes":{
-"KOG":"B",
-"protein_id":"RT09438",
-"transcript_id":"9566"
-},
-"annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YDL040C"
-}
-},
-{
-"id":"rt5553",
-"name":"ARD1",
-"notes":{
-"KOG":"R",
-"protein_id":"RT13921",
-"transcript_id":"14049"
-},
-"annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YHR013C"
 }
 },
 {
@@ -93524,7 +95051,7 @@
 },
 {
 "id":"rt2040",
-"name":"",
+"name":"ACAD11_rt",
 "notes":{
 "KOG":"R",
 "ncbi_blast":"Acyl-CoA dehydrogenase",
@@ -94464,9 +95991,10 @@
 },
 {
 "id":"rt4202",
-"name":"",
+"name":"MCAD_rt",
 "notes":{
 "KOG":"I",
+"ncbi_blast":"homo sapiens MCAD",
 "protein_id":"RT12570",
 "transcript_id":"12698"
 },
@@ -95952,10 +97480,10 @@
 },
 {
 "id":"rt5702",
-"name":"",
+"name":"ACADSB_rt",
 "notes":{
 "KOG":"I",
-"ncbi_blast":"Acyl-CoA dehydrogenase/oxidase/short/branched chain acyl-CoA dehydrogenase",
+"ncbi_blast":"homo sapiens ACADSB",
 "protein_id":"RT14070",
 "transcript_id":"14198"
 },
@@ -96461,17 +97989,15 @@
 },
 {
 "id":"rt0595",
-"name":"",
+"name":"LCAD_rt",
 "notes":{
 "KOG":"I",
-"ncbi_blast":"Acyl-CoA dehydrogenase, has cytB5 domain",
+"ncbi_blast":"homo sapiens LCAD",
 "protein_id":"RT08963",
-"sc_bidirectional_blast":"lower_evalue_hit",
 "transcript_id":"9091"
 },
 "annotation":{
-"sbo":"SBO:0000243",
-"sc_id":"YNL111C"
+"sbo":"SBO:0000243"
 }
 },
 {
@@ -99224,6 +100750,112 @@
 "annotation":{
 "sbo":"SBO:0000243",
 "sc_id":"YBR241C"
+}
+},
+{
+"id":"rt1397",
+"name":"GCD11",
+"notes":{
+"KOG":"J",
+"protein_id":"RT09765",
+"transcript_id":"9893"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YER025W"
+}
+},
+{
+"id":"rt6500",
+"name":"TEF1,TEF2",
+"notes":{
+"KOG":"J",
+"protein_id":"RT14868",
+"sc_bidirectional_blast":"sc_isozymes",
+"transcript_id":"14996"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YPR080W,YBR118W"
+}
+},
+{
+"id":"rt2181",
+"name":"",
+"notes":{
+"KOG":"U",
+"protein_id":"RT10549",
+"sc_bidirectional_blast":"lower_evalue_hit",
+"transcript_id":"10677"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YJL168C"
+}
+},
+{
+"id":"rt6162",
+"name":"DOT1",
+"notes":{
+"KOG":"D,K",
+"protein_id":"RT14530",
+"transcript_id":"14658"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YDR440W"
+}
+},
+{
+"id":"rt1965",
+"name":"SET1",
+"notes":{
+"KOG":"B,K",
+"protein_id":"RT10333",
+"transcript_id":"10461"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YHR119W"
+}
+},
+{
+"id":"rt4178",
+"name":"RKM3",
+"notes":{
+"KOG":"R",
+"protein_id":"RT12546",
+"transcript_id":"12674"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YBR030W"
+}
+},
+{
+"id":"rt2220",
+"name":"HRP1",
+"notes":{
+"KOG":"A",
+"protein_id":"RT10588",
+"transcript_id":"10716"
+},
+"annotation":{
+"sbo":"SBO:0000243",
+"sc_id":"YOL123W"
+}
+},
+{
+"id":"rt6199",
+"name":"ACAD11_Nterm_rt",
+"notes":{
+"KOG":"Unassigned",
+"ncbi_blast":"N terminal to H. sapiens ACAD11 performing aminoglycoside phosphotransferase",
+"protein_id":"RT14567",
+"transcript_id":"14695"
+},
+"annotation":{
+"sbo":"SBO:0000243"
 }
 }
 ],
