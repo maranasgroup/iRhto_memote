@@ -4,10 +4,12 @@
 Memote-created repository for Rhodosporidium toruloides genome-scale metabolic model iRhto
 
 ## Current version
-Release 2: 2020-06-30<br>
-Beta-oxidation major updates
+Release 2: 2021-07-07<br>
 
 ## Usage
+Hoang Dinh, 2021-07-07<br>
+Update release 2 model files, see changes in iRhto_memote/model_files<br>
+<br>
 Hoang Dinh, 2020-06-30<br>
 Update to release 2, curation of beta-oxidation<br>
 <br>
