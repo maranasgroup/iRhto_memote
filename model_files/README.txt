@@ -3,7 +3,7 @@ Release 2 is current and at this directory.
 iRhtoC and iRhtoN are the model versions for carbon and nitrogen limited conditions, respecitvely. They are identical except for the biomass reaction, acyl composition reaction, and GAM.
 
 *** Update log ***
-Hoang Dinh, 2020-08-07
+Hoang Dinh, 2020-07-07
 Curating xylitol and arabitol metabolism, one carbon metabolism, AKGD and GCC representation, aldehyde dehydrogenase isozymes, various mitochondrial transporters, proline degradation pathway, and FADH2 oxidation pathway.
 Add OAADC_c
 Remove PFK_3_c due to lack of evidence
