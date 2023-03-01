@@ -1,13 +1,15 @@
-[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://github.com/maranasgroup/iRhto_memote/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2647589.svg)](https://doi.org/10.5281/zenodo.2647589)
+[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://github.com/maranasgroup/iRhto_memote/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7689588.svg)](https://doi.org/10.5281/zenodo.7689588)
 
 # iRhto_memote
-Memote-created repository for Rhodosporidium toruloides genome-scale metabolic model iRhto
+Memote-created repository for Rhodotorula toruloides (organism previously called Rhodosporidium toruloides) genome-scale metabolic model iRhto1108 (strain IFO0880)
 
 ## Current version
-Release 2: 2021-07-07<br>
+Release 2: version 2023-03-01<br>
 
 ## Usage
-Hoang Dinh, 2021-07-07<br>
+Please use the latest model version if possible since the model is constantly updated based on new knowledge on the organism from the literature.<br>
+<br>
+Hoang Dinh, 2023-03-01<br>
 Update release 2 model files, see changes in iRhto_memote/model_files<br>
 <br>
 Hoang Dinh, 2020-06-30<br>
