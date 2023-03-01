@@ -44116,10 +44116,13 @@
       - xu5p__D_c: 1
       - xylu__D_c: -1
     - lower_bound: 0.0
-    - upper_bound: 1000.0
+    - upper_bound: 0.0
     - gene_reaction_rule: rt8482
     - subsystem: Pentose and glucuronate interconversions
     - notes: !!omap
+      - notes: Genes present but inactive (possibly not expressed) since xylose assimilation
+          in RT follows arabitol pathway (pmid:34491401)
+      - pmid: '34491401'
       - yeastgem76.reaction: r_1094
       - yeastkegg_id: r_1094
     - annotation: !!omap
@@ -61220,12 +61223,14 @@
     - metabolites: !!omap
       - xyl__D_c: -1
       - xylu__D_c: 1
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
+    - lower_bound: 0.0
+    - upper_bound: 0.0
     - gene_reaction_rule: rt5360 or rt0738
     - subsystem: Alternative carbon metabolism
     - notes: !!omap
       - manually_curated: yes
+      - notes: Inactive since xylose assimilation in RT follows arabitol pathway (pmid:34491401)
+      - pmid: '34491401'
     - annotation: !!omap
       - ec-code: 5.3.1.5
       - kegg.reaction: R01432
@@ -68917,13 +68922,15 @@
       - nad_c: -1
       - nadh_c: 1
       - xylu__D_c: 1
-    - lower_bound: 0.0
-    - upper_bound: 0.0
-    - gene_reaction_rule: UNKNOWN
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1622
     - subsystem: Alternative carbon metabolism
     - notes: !!omap
       - notes: turn off due to lack of evidence but still keep in the model for future
-          curation
+          curation. Xylose assimilation pathway. Unverified cofactor usage, assuming
+          NAD+/NADH.
+      - pmid: '34491401'
     - annotation: !!omap
       - ec-code: 1.1.1.11
       - kegg.reaction: R05604
@@ -71201,13 +71208,15 @@
       - nad_c: -1
       - nadh_c: 1
       - rbl__D_c: 1
-    - lower_bound: 0.0
-    - upper_bound: 0.0
-    - gene_reaction_rule: UNKNOWN
+    - lower_bound: -1000.0
+    - upper_bound: 1000.0
+    - gene_reaction_rule: rt1622
     - subsystem: Alternative carbon metabolism
     - notes: !!omap
       - notes: turn off due to lack of evidence but still keep in the model for future
-          curation
+          curation. Xylose assimilation pathway. Unverified cofactor usage, assuming
+          NAD+/NADH.
+      - pmid: '34491401'
     - annotation: !!omap
       - ec-code: 1.1.1.250
       - kegg.reaction: R07134
@@ -71220,10 +71229,13 @@
       - nadp_c: -1
       - nadph_c: 1
       - xylu__D_c: 1
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: rt4606 or rt8084
+    - lower_bound: 0.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt1622
     - subsystem: Alternative carbon metabolism
+    - notes: !!omap
+      - notes: Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.
+      - pmid: '34491401'
     - annotation: !!omap
       - ec-code: 1.1.1.287
       - kegg.reaction: R07143
@@ -71236,10 +71248,13 @@
       - nadp_c: -1
       - nadph_c: 1
       - rbl__D_c: 1
-    - lower_bound: -1000.0
-    - upper_bound: 1000.0
-    - gene_reaction_rule: rt4606 or rt8084
+    - lower_bound: 0.0
+    - upper_bound: 0.0
+    - gene_reaction_rule: rt1622
     - subsystem: Alternative carbon metabolism
+    - notes: !!omap
+      - notes: Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.
+      - pmid: '34491401'
     - annotation: !!omap
       - ec-code: 1.1.1.287
       - kegg.reaction: R07144
@@ -81260,10 +81275,11 @@
       - sc_id: YNR016C,YMR207C
   - !!omap
     - id: rt1622
-    - name: OARm_rt
+    - name: ARD1
     - notes: !!omap
       - KOG: R
       - ncbi_blast: hit FabG region
+      - pmid: '34491401'
       - protein_id: RT09990
       - transcript_id: '10118'
     - annotation: !!omap
@@ -82456,6 +82472,9 @@
   - !!omap
     - id: rt1406
     - name: ''
+    - notes: !!omap
+      - protein_id: RT09774
+      - transcript_id: '9902'
   - !!omap
     - id: rtmNAD3
     - name: NAD3
@@ -82529,6 +82548,9 @@
   - !!omap
     - id: rt4150
     - name: YMC2
+    - notes: !!omap
+      - protein_id: RT12518
+      - transcript_id: '12646'
     - annotation: !!omap
       - sc_id: YBR104W
   - !!omap
@@ -82537,11 +82559,16 @@
     - notes: !!omap
       - notes: predicted to be 2ippm carrier but verified experimentally to be serine
           transporter, pmid:30442778
+      - protein_id: RT16278
+      - transcript_id: '16406'
     - annotation: !!omap
       - sc_id: YOR271C
   - !!omap
     - id: rt7226
     - name: YER010C
+    - notes: !!omap
+      - protein_id: RT15594
+      - transcript_id: '15722'
 - id: iRhto1108C
 - name: iRhto1108C
 - compartments: !!omap

@@ -52634,10 +52634,12 @@
 "xylu__D_c":-1
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt8482",
 "subsystem":"Pentose and glucuronate interconversions",
 "notes":{
+"notes":"Genes present but inactive (possibly not expressed) since xylose assimilation in RT follows arabitol pathway (pmid:34491401)",
+"pmid":"34491401",
 "yeastgem76.reaction":"r_1094",
 "yeastkegg_id":"r_1094"
 },
@@ -73805,12 +73807,14 @@
 "xyl__D_c":-1,
 "xylu__D_c":1
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"rt5360 or rt0738",
 "subsystem":"Alternative carbon metabolism",
 "notes":{
-"manually_curated":"yes"
+"manually_curated":"yes",
+"notes":"Inactive since xylose assimilation in RT follows arabitol pathway (pmid:34491401)",
+"pmid":"34491401"
 },
 "annotation":{
 "ec-code":"5.3.1.5",
@@ -83153,12 +83157,13 @@
 "nadh_c":1,
 "xylu__D_c":1
 },
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"UNKNOWN",
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt1622",
 "subsystem":"Alternative carbon metabolism",
 "notes":{
-"notes":"turn off due to lack of evidence but still keep in the model for future curation"
+"notes":"turn off due to lack of evidence but still keep in the model for future curation. Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.",
+"pmid":"34491401"
 },
 "annotation":{
 "ec-code":"1.1.1.11",
@@ -85911,12 +85916,13 @@
 "nadh_c":1,
 "rbl__D_c":1
 },
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"UNKNOWN",
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"rt1622",
 "subsystem":"Alternative carbon metabolism",
 "notes":{
-"notes":"turn off due to lack of evidence but still keep in the model for future curation"
+"notes":"turn off due to lack of evidence but still keep in the model for future curation. Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.",
+"pmid":"34491401"
 },
 "annotation":{
 "ec-code":"1.1.1.250",
@@ -85933,10 +85939,14 @@
 "nadph_c":1,
 "xylu__D_c":1
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4606 or rt8084",
+"lower_bound":0.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt1622",
 "subsystem":"Alternative carbon metabolism",
+"notes":{
+"notes":"Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.",
+"pmid":"34491401"
+},
 "annotation":{
 "ec-code":"1.1.1.287",
 "kegg.reaction":"R07143"
@@ -85952,10 +85962,14 @@
 "nadph_c":1,
 "rbl__D_c":1
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"rt4606 or rt8084",
+"lower_bound":0.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"rt1622",
 "subsystem":"Alternative carbon metabolism",
+"notes":{
+"notes":"Xylose assimilation pathway. Unverified cofactor usage, assuming NAD+/NADH.",
+"pmid":"34491401"
+},
 "annotation":{
 "ec-code":"1.1.1.287",
 "kegg.reaction":"R07144"
@@ -98927,10 +98941,11 @@
 },
 {
 "id":"rt1622",
-"name":"OARm_rt",
+"name":"ARD1",
 "notes":{
 "KOG":"R",
 "ncbi_blast":"hit FabG region",
+"pmid":"34491401",
 "protein_id":"RT09990",
 "transcript_id":"10118"
 },
@@ -100469,7 +100484,11 @@
 },
 {
 "id":"rt1406",
-"name":""
+"name":"",
+"notes":{
+"protein_id":"RT09774",
+"transcript_id":"9902"
+}
 },
 {
 "id":"rtmNAD3",
@@ -100572,6 +100591,10 @@
 {
 "id":"rt4150",
 "name":"YMC2",
+"notes":{
+"protein_id":"RT12518",
+"transcript_id":"12646"
+},
 "annotation":{
 "sc_id":"YBR104W"
 }
@@ -100580,7 +100603,9 @@
 "id":"rt7910",
 "name":"FSF1",
 "notes":{
-"notes":"predicted to be 2ippm carrier but verified experimentally to be serine transporter, pmid:30442778"
+"notes":"predicted to be 2ippm carrier but verified experimentally to be serine transporter, pmid:30442778",
+"protein_id":"RT16278",
+"transcript_id":"16406"
 },
 "annotation":{
 "sc_id":"YOR271C"
@@ -100588,7 +100613,11 @@
 },
 {
 "id":"rt7226",
-"name":"YER010C"
+"name":"YER010C",
+"notes":{
+"protein_id":"RT15594",
+"transcript_id":"15722"
+}
 }
 ],
 "id":"iRhto1108C",
